@@ -66,11 +66,20 @@
 
 
 ### 추천 서적
-- 디지털 영상 처리 http://book.naver.com/bookdb/book_detail.nhn?bid=7538935  
-- 컴퓨터 비전 http://book.naver.com/bookdb/book_detail.nhn?bid=7973898  
-- 밑바닥부터 시작하는 딥러닝 http://book.naver.com/bookdb/book_detail.nhn?bid=11492334  
-- 기계학습 http://book.naver.com/bookdb/book_detail.nhn?bid=12873234  
-- MIT books http://www.deeplearningbook.org
+- 디지털 영상 처리  
+[<img src="./DIP.jpg" width="400" height="510">](http://book.naver.com/bookdb/book_detail.nhn?bid=7538935)
+
+- 컴퓨터 비전  
+[<img src="./CV.jpg" width="400" height="510">](http://book.naver.com/bookdb/book_detail.nhn?bid=7973898)
+
+- 밑바닥부터 시작하는 딥러닝  
+[<img src="./scratch.jpg" width="400" height="510">](http://book.naver.com/bookdb/book_detail.nhn?bid=11492334)
+
+- 기계학습  
+[<img src="./ML.jpg" width="400" height="510">](http://book.naver.com/bookdb/book_detail.nhn?bid=12873234)
+
+- MIT books  
+[<img src="./MIT.jpg" width="400" height="510">](http://www.deeplearningbook.org)
 
 
 ### 환경 구축 관련
