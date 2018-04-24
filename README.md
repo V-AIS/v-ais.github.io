@@ -61,9 +61,10 @@
 ### 기술 블로그
 - 브랜치(Amang Kim 개인블로그) : [링크](https://brunch.co.kr/@amangkim)  
 - 생활코딩 : [링크](http://woowabros.github.io/)  
-- 홍정모 교수님 개인 블로그: [링크](https://blog.naver.com/prologue/PrologueList.nhn?blogId=atelierjpro)  
-- 라온피플: [링크](https://laonple.blog.me/221019319607)  
-- 위키독스: [링크](https://wikidocs.net/book/587)  
+- 홍정모 교수님 개인 블로그 : [링크](https://blog.naver.com/prologue/PrologueList.nhn?blogId=atelierjpro)  
+- 이기창님 개인 블로그 : [링크](https://ratsgo.github.io/)
+- 라온피플 : [링크](https://laonple.blog.me/221019319607)  
+- 위키독스 : [링크](https://wikidocs.net/book/587)  
 
 
 ### 추천 서적
