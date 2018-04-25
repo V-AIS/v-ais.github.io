@@ -39,24 +39,29 @@
 - opencv 관련 질문 : [링크](http://answers.opencv.org/questions/)
 (git에서 issue 외에 단순 질문 올라옴)
 
-### 강좌들
+### 강좌(딥러닝)
 - 구글 텐서플로우 강좌(한글가능): [링크](https://developers.google.com/machine-learning/crash-course/)  
 - Terry님 딥러닝 강좌: [링크](https://www.youtube.com/watch?v=D4zqigCb8co&list=PL0oFI08O71gKEXITQ7OG2SCCXkrtid7Fq )  
 - Sung Kim 딥러닝 강좌(모두의 딥러닝): [링크](https://www.youtube.com/watch?v=BS6O0zOGX4E&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm)  
 - PR12 딥러닝 논문 세미나: [링크](https://www.youtube.com/playlist?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS)  
 - CS231n 2016(Andrej Karpathy): [링크](https://www.youtube.com/playlist?list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA)  
 - CS231n 2017(Justin Johnson, Serena Yeung): [링크](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)  
-- 머신러닝을 위한 선형대수 :
-[링크](http://www.edwith.org/linearalgebra4ai)  
-- 머신러닝을 위한 Python :
+- 머신러닝을 위한 Python (최성철 교수) :
 [링크](http://www.edwith.org/aipython)  
 - Deep Systems (Ru) :
 [링크](https://deepsystems.ai/reviews)   매우 좋은 강좌를 해주고 설명이 매우 잘 되어있는 PPT를 제공한다. 단점은 러시아어로 설명해준다 ㅎㅎ.. 그래서 PPT를 주로 사용한다.  
 - 오일석 교수님 ppt :
 [링크](http://cv.jbnu.ac.kr/index.php?mid=ml)  
-- 선형대수 :
-[링크1](https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c) [링크2](http://cs231n.github.io/python-numpy-tutorial/)
 
+### 강좌(선형대수)
+- 머신러닝을 위한 선형대수(주재걸 교수) :
+[링크](http://www.edwith.org/linearalgebra4ai)  
+- MIT 18.06 Gibert Strang (영어자막):
+[링크](https://www.youtube.com/watch?v=ZK3O402wf1c&list=PLE7DDD91010BC51F8)
+- Khan Academy linear algebra (한글자막):
+[링크](https://ko.khanacademy.org/math/linear-algebra)
+- 선형대수 요약:
+[링크1](https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c) [링크2](http://cs231n.github.io/python-numpy-tutorial/)
 
 ### 기술 블로그
 - 브랜치(Amang Kim 개인블로그) : [링크](https://brunch.co.kr/@amangkim)  
