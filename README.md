@@ -69,8 +69,8 @@
 - 홍정모 교수님 개인 블로그 : [링크](https://blog.naver.com/prologue/PrologueList.nhn?blogId=atelierjpro)  
 - 이기창님 개인 블로그 : [링크](https://ratsgo.github.io/)
 - 라온피플 : [링크](https://laonple.blog.me/221019319607)  
-- 위키독스 : [링크](https://wikidocs.net/book/587)  
-
+- 위키독스 : [링크](https://wikidocs.net/book/587)  
+- State Of the Art Object Detection 자료 모음 : [링크](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)
 
 ### 추천 서적
 - 디지털 영상 처리  
