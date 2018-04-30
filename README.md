@@ -71,7 +71,7 @@
 - 라온피플 : [링크](https://laonple.blog.me/221019319607)  
 - 위키독스 : [링크](https://wikidocs.net/book/587)  
 - State Of the Art Object Detection 자료 모음 : [링크](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)
-
+- Python 모듈 설명 모음 : [링크](http://awesome-python.com/)
 ### 추천 서적
 - 디지털 영상 처리  
 [<img src="./DIP.jpg" width="400" height="510">](http://book.naver.com/bookdb/book_detail.nhn?bid=7538935)
