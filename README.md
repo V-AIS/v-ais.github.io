@@ -44,7 +44,8 @@
 - 구글 텐서플로우 강좌(한글가능): [링크](https://developers.google.com/machine-learning/crash-course/)  
 - Terry님 딥러닝 강좌: [링크](https://www.youtube.com/watch?v=D4zqigCb8co&list=PL0oFI08O71gKEXITQ7OG2SCCXkrtid7Fq )  
 - Sung Kim 딥러닝 강좌(모두의 딥러닝): [링크](https://www.youtube.com/watch?v=BS6O0zOGX4E&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm)  
-- PR12 딥러닝 논문 세미나: [링크](https://www.youtube.com/playlist?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS)  
+- PR12 딥러닝 논문 세미나: [링크](https://www.youtube.com/playlist?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS)
+- CS230 텐서플로우 기초 정리: [링크](https://cs230-stanford.github.io/tensorflow-getting-started.html)
 - CS231n 2016(Andrej Karpathy): [링크](https://www.youtube.com/playlist?list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA)  
 - CS231n 2017(Justin Johnson, Serena Yeung): [링크](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)  
 - 머신러닝을 위한 Python (최성철 교수) :
