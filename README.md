@@ -1,10 +1,16 @@
-# 공 지 사 항
-
+# V.AIS (Vision & Artificial Intelligence Study)
+---
 - 이 페이지는 [영상처리 비젼, 딥러닝, 로봇 개발자](https://open.kakao.com/o/ghU9D1o) 오픈채팅 사용자를 위한 페이지입니다.
 
 - 닉네임을 닉네임/분야/직업 등으로 되도록이면 변경해주세요!
 
 - 건의 사항, 추가 정보는 [이슈 등록](https://github.com/OpenCVDL/OpenCVDL.github.io/issues) 에 등록해주세요!
+
+## 공 지 사 항
+- 다음 세미나는 8월중으로 진행하겠습니다
+
+- Speaker 모집중! 운영진에게 연락주세요. (명함 기능 1:1 톡 아시죠?)
+
 ## 자료 모음집
 
 ### Company Research Page
@@ -76,19 +82,19 @@
 - Python 모듈 설명 모음 : [링크](http://awesome-python.com/)
 ### 추천 서적
 - 디지털 영상 처리  
-[<img src="./DIP.jpg" width="400" height="510">](http://book.naver.com/bookdb/book_detail.nhn?bid=7538935)
+[<img src="./DIP.jpg" width="200" height="255">](http://book.naver.com/bookdb/book_detail.nhn?bid=7538935)
 
 - 컴퓨터 비전  
-[<img src="./CV.jpg" width="400" height="510">](http://book.naver.com/bookdb/book_detail.nhn?bid=7973898)
+[<img src="./CV.jpg" width="200" height="255">](http://book.naver.com/bookdb/book_detail.nhn?bid=7973898)
 
 - 밑바닥부터 시작하는 딥러닝  
-[<img src="./scratch.jpg" width="400" height="510">](http://book.naver.com/bookdb/book_detail.nhn?bid=11492334)
+[<img src="./scratch.jpg" width="200" height="255">](http://book.naver.com/bookdb/book_detail.nhn?bid=11492334)
 
 - 기계학습  
-[<img src="./ML.jpg" width="400" height="510">](http://book.naver.com/bookdb/book_detail.nhn?bid=12873234)
+[<img src="./ML.jpg" width="200" height="255">](http://book.naver.com/bookdb/book_detail.nhn?bid=12873234)
 
 - MIT books  
-[<img src="./MIT.jpg" width="400" height="510">](http://www.deeplearningbook.org)
+[<img src="./MIT.jpg" width="200" height="255">](http://www.deeplearningbook.org)
 
 
 ### 환경 구축 관련
