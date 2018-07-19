@@ -63,7 +63,7 @@
 
 ### 강좌(선형대수)
 - 머신러닝을 위한 선형대수(주재걸 교수) :
-[링크](http://www.edwith.org/linearalgebra4ai)  
+[링크](http://www.edwith.org/linearalgebra4ai), [자료]('./files/머신러닝을_위한_선형대수.zip')  
 - MIT 18.06 Gibert Strang (영어자막):
 [링크](https://www.youtube.com/watch?v=ZK3O402wf1c&list=PLE7DDD91010BC51F8)
 - Khan Academy linear algebra (한글자막):
@@ -77,25 +77,24 @@
 - 홍정모 교수님 개인 블로그 : [링크](https://blog.naver.com/prologue/PrologueList.nhn?blogId=atelierjpro)  
 - 이기창님 개인 블로그 : [링크](https://ratsgo.github.io/)
 - 라온피플 : [링크](https://laonple.blog.me/221019319607)  
-- 위키독스(Machine Learning 강의노트) : [링크](https://wikidocs.net/book/587)  
+- 위키독스(Machine) : [링크](https://wikidocs.net/book/587)  
 - State Of the Art Object Detection 자료 모음 : [링크](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)
 - Python 모듈 설명 모음 : [링크](http://awesome-python.com/)
-
 ### 추천 서적
 - 디지털 영상 처리  
-[<img src="./DIP.jpg" width="200" height="255">](http://book.naver.com/bookdb/book_detail.nhn?bid=7538935)
+[<img src="./cover/DIP.jpg" width="200" height="255">](http://book.naver.com/bookdb/book_detail.nhn?bid=7538935)
 
 - 컴퓨터 비전  
-[<img src="./CV.jpg" width="200" height="255">](http://book.naver.com/bookdb/book_detail.nhn?bid=7973898)
+[<img src="./cover/CV.jpg" width="200" height="255">](http://book.naver.com/bookdb/book_detail.nhn?bid=7973898)
 
 - 밑바닥부터 시작하는 딥러닝  
-[<img src="./scratch.jpg" width="200" height="255">](http://book.naver.com/bookdb/book_detail.nhn?bid=11492334)
+[<img src="./cover/scratch.jpg" width="200" height="255">](http://book.naver.com/bookdb/book_detail.nhn?bid=11492334)
 
 - 기계학습  
-[<img src="./ML.jpg" width="200" height="255">](http://book.naver.com/bookdb/book_detail.nhn?bid=12873234)
+[<img src="./cover/ML.jpg" width="200" height="255">](http://book.naver.com/bookdb/book_detail.nhn?bid=12873234)
 
 - MIT books  
-[<img src="./MIT.jpg" width="200" height="255">](http://www.deeplearningbook.org)
+[<img src="./cover/MIT.jpg" width="200" height="255">](http://www.deeplearningbook.org)
 
 
 ### 환경 구축 관련
