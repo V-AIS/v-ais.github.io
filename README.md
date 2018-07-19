@@ -63,7 +63,7 @@
 
 ### 강좌(선형대수)
 - 머신러닝을 위한 선형대수(주재걸 교수) :
-[링크](http://www.edwith.org/linearalgebra4ai), [자료]('./files/머신러닝을_위한_선형대수.zip')  
+[링크](http://www.edwith.org/linearalgebra4ai), [자료](https://github.com/OpenCVDL/OpenCVDL.github.io/raw/master/files/머신러닝을_위한_선형대수.zip)  
 - MIT 18.06 Gibert Strang (영어자막):
 [링크](https://www.youtube.com/watch?v=ZK3O402wf1c&list=PLE7DDD91010BC51F8)
 - Khan Academy linear algebra (한글자막):
