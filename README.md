@@ -17,7 +17,7 @@
 
 ### 동영상 강의
 #### 영어
-  - **CS231n** [2016_링크](https://www.youtube.com/playlist?list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA), [2017_링크](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv) :star::star::star: :skull::skull:  
+  - **CS231n** [2016_링크](https://www.youtube.com/playlist?list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA), [2017_링크](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv) :star: :star: :star: :skull: :skull:  
     Computer Vision 분야에서 가장 중요하고 기초적인 스탠포드 대학 강의
 
   - **구글 머신러닝 단기집중과정 (한글자막)** [링크](https://developers.google.com/machine-learning/crash-course/) :star: :skull:  
@@ -30,7 +30,7 @@
     [링크](https://ko.khanacademy.org/math/linear-algebra)
 
 #### 한글
-  - **모두의 딥러닝** [링크](http://hunkim.github.io/ml/) :star::star::star: :skull:  
+  - **모두의 딥러닝** [링크](http://hunkim.github.io/ml/) :star: :star: :star: :skull:  
   딥러닝 입문자들에게 추천하는 국내 1위 강의  
   딥러닝 뿐만이 아니라 RL(Reinforcement Learning) 강의 포함
 
