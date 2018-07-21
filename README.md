@@ -7,11 +7,78 @@
 - 건의 사항, 추가 정보는 [이슈 등록](https://github.com/OpenCVDL/OpenCVDL.github.io/issues) 에 등록해주세요!
 
 ## 공 지 사 항
-- 다음 세미나는 8월중으로 진행하겠습니다
+- 다음 세미나는 8월중으로 진행할 예정입니다.
 
 - Speaker 모집중! 운영진에게 연락주세요. (명함 기능 1:1 톡 아시죠?)
 
 ## 자료 모음집
+- :star: : 추천도
+- :skull: : 난이도
+
+### 동영상 강의
+#### 영어
+  - **CS231n** [2016_링크](https://www.youtube.com/playlist?list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA), [2017_링크](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv) :star::star::star: :skull::skull:  
+    Computer Vision 분야에서 가장 중요하고 기초적인 스탠포드 대학 강의
+
+  - **구글 머신러닝 단기집중과정 (한글자막)** [링크](https://developers.google.com/machine-learning/crash-course/) :star: :skull:  
+    구글에서 제작한 비전공자들도 쉽게 들을 수 있는 강의
+
+  - **MIT 18.06 Gibert Strang (영어자막)**
+    [링크](https://www.youtube.com/watch?v=ZK3O402wf1c&list=PLE7DDD91010BC51F8)
+
+  - **Khan Academy linear algebra (한글자막)**
+    [링크](https://ko.khanacademy.org/math/linear-algebra)
+
+#### 한글
+  - **모두의 딥러닝** [링크](http://hunkim.github.io/ml/) :star::star::star: :skull:  
+  딥러닝 입문자들에게 추천하는 국내 1위 강의  
+  딥러닝 뿐만이 아니라 RL(Reinforcement Learning) 강의 포함
+
+  - **테리의 딥러닝 토크** [링크](https://www.youtube.com/playlist?list=PL0oFI08O71gKEXITQ7OG2SCCXkrtid7Fq) :star: :skull:  
+
+
+  - **PR12 딥러닝 논문읽기 모임** [링크](https://www.youtube.com/playlist?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS) :star::star::star: :skull::skull:  
+  주요 논문에 대한 해설 강의  
+  논문을 읽기 전, 맛보기 역할
+
+  - **머신러닝을 위한 Python (최성철 교수)**
+[링크](http://www.edwith.org/aipython) :star::star: :skull:  
+  파이썬 강의 및 데이터 분석 관련 모듈(numpy, pandas, ...)에 관한 강의  
+  파이썬 입문자에게 추천
+
+  - **머신러닝을 위한 선형대수(주재걸 교수)**
+[링크](http://www.edwith.org/linearalgebra4ai), [자료](https://github.com/OpenCVDL/OpenCVDL.github.io/blob/master/files/머신러닝을_위한_선형대수.zip) :star::star: :skull:
+
+### 책
+
+|    책 이름     | 사진       | 추천도 & 난이도 | 한줄평   |
+| :-------------: |:-------------:| :-----: | :------:|
+| 디지털 영상 처리  | [<img src="./cover/DIP.jpg" width="130" height="160">](http://book.naver.com/bookdb/book_detail.nhn?bid=7538935) | :star::star: :skull::skull::skull:  |  추후 작성|
+| 컴퓨터 비전      | [<img src="./cover/CV.jpg" width="130" height="160">](http://book.naver.com/bookdb/book_detail.nhn?bid=7973898)      |   :star::star: :skull::skull: |    추후 작성|
+| 기계학습        | [<img src="./cover/ML.jpg" width="130" height="160">](http://book.naver.com/bookdb/book_detail.nhn?bid=12873234)     |    :star::star: :skull::skull:   |    추후 작성|
+| 밑바닥부터 시작하는 딥러닝        | [<img src="./cover/scratch.jpg" width="130" height="160">](http://book.naver.com/bookdb/book_detail.nhn?bid=11492334)     |    :star::star::star: :skull:   |       추후 작성|
+| DEEP LEARNING|[<img src="./cover/MIT.jpg" width="130" height="160">](http://www.deeplearningbook.org)     |  :star::star::star: :skull::skull::skull:   |       추후 작성|
+
+
+### 블로그
+  - **브랜치(Amang Kim 개인블로그)** [링크](https://brunch.co.kr/@amangkim)  
+  - **우아한 형제들** [링크](http://woowabros.github.io/)  
+  - **홍정모 교수님 개인 블로그** [링크](https://blog.naver.com/prologue/PrologueList.nhn?blogId=atelierjpro)  
+  - **이기창님 개인 블로그** [링크](https://ratsgo.github.io/)
+  - **라온피플** [링크](https://laonple.blog.me/221019319607)  
+  - **위키독스(Machine)** [링크](https://wikidocs.net/book/587)  
+  - **State Of the Art Object Detection 자료 모음** [링크](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)
+  - **Python 모듈 설명 모음** [링크](http://awesome-python.com/)
+
+### PPT
+  - **선형대수 요약**
+[링크1](https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c) [링크2](http://cs231n.github.io/python-numpy-tutorial/)
+  - **CS230 텐서플로우 기초 정리** [링크](https://cs230-stanford.github.io/tensorflow-getting-started.html)
+  - **Deep Systems (Ru)**
+[링크](https://deepsystems.ai/reviews)
+  - **오일석 교수님 ppt**
+[링크](http://cv.jbnu.ac.kr/index.php?mid=ml)
+
 
 ### Company Research Page
 - 네이버 : [링크](http://d2.naver.com/home)  
@@ -45,57 +112,6 @@
 - opencv 네이버 카페 : [링크](http://cafe.naver.com/opencv)  
 - opencv 관련 질문 : [링크](http://answers.opencv.org/questions/)
 (git에서 issue 외에 단순 질문 올라옴)
-
-### 강좌(딥러닝)
-- 구글 머신러닝 단기집중과정 (한글가능): [링크](https://developers.google.com/machine-learning/crash-course/)  
-- Terry님 딥러닝 강좌: [링크](https://www.youtube.com/watch?v=D4zqigCb8co&list=PL0oFI08O71gKEXITQ7OG2SCCXkrtid7Fq )  
-- Sung Kim 딥러닝 강좌(모두의 딥러닝): [링크](https://www.youtube.com/watch?v=BS6O0zOGX4E&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm)  
-- PR12 딥러닝 논문 세미나: [링크](https://www.youtube.com/playlist?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS)
-- CS230 텐서플로우 기초 정리: [링크](https://cs230-stanford.github.io/tensorflow-getting-started.html)
-- CS231n 2016(Andrej Karpathy): [링크](https://www.youtube.com/playlist?list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA)  
-- CS231n 2017(Justin Johnson, Serena Yeung): [링크](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)  
-- 머신러닝을 위한 Python (최성철 교수) :
-[링크](http://www.edwith.org/aipython)  
-- Deep Systems (Ru) :
-[링크](https://deepsystems.ai/reviews)   매우 좋은 강좌를 해주고 설명이 매우 잘 되어있는 PPT를 제공한다. 단점은 러시아어로 설명해준다 ㅎㅎ.. 그래서 PPT를 주로 사용한다.  
-- 오일석 교수님 ppt :
-[링크](http://cv.jbnu.ac.kr/index.php?mid=ml)  
-
-### 강좌(선형대수)
-- 머신러닝을 위한 선형대수(주재걸 교수) :
-[링크](http://www.edwith.org/linearalgebra4ai), [자료](https://github.com/OpenCVDL/OpenCVDL.github.io/blob/master/files/머신러닝을_위한_선형대수.zip)
-- MIT 18.06 Gibert Strang (영어자막):
-[링크](https://www.youtube.com/watch?v=ZK3O402wf1c&list=PLE7DDD91010BC51F8)
-- Khan Academy linear algebra (한글자막):
-[링크](https://ko.khanacademy.org/math/linear-algebra)
-- 선형대수 요약:
-[링크1](https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c) [링크2](http://cs231n.github.io/python-numpy-tutorial/)
-
-### 블로그 & 링크
-- 브랜치(Amang Kim 개인블로그) : [링크](https://brunch.co.kr/@amangkim)  
-- 우아한 형제들 : [링크](http://woowabros.github.io/)  
-- 홍정모 교수님 개인 블로그 : [링크](https://blog.naver.com/prologue/PrologueList.nhn?blogId=atelierjpro)  
-- 이기창님 개인 블로그 : [링크](https://ratsgo.github.io/)
-- 라온피플 : [링크](https://laonple.blog.me/221019319607)  
-- 위키독스(Machine) : [링크](https://wikidocs.net/book/587)  
-- State Of the Art Object Detection 자료 모음 : [링크](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)
-- Python 모듈 설명 모음 : [링크](http://awesome-python.com/)
-### 추천 서적
-- 디지털 영상 처리  
-[<img src="./cover/DIP.jpg" width="200" height="255">](http://book.naver.com/bookdb/book_detail.nhn?bid=7538935)
-
-- 컴퓨터 비전  
-[<img src="./cover/CV.jpg" width="200" height="255">](http://book.naver.com/bookdb/book_detail.nhn?bid=7973898)
-
-- 밑바닥부터 시작하는 딥러닝  
-[<img src="./cover/scratch.jpg" width="200" height="255">](http://book.naver.com/bookdb/book_detail.nhn?bid=11492334)
-
-- 기계학습  
-[<img src="./cover/ML.jpg" width="200" height="255">](http://book.naver.com/bookdb/book_detail.nhn?bid=12873234)
-
-- MIT books  
-[<img src="./cover/MIT.jpg" width="200" height="255">](http://www.deeplearningbook.org)
-
 
 ### 환경 구축 관련
 - Ubuntu 16.04.1에 CUDA & cudnn 설치하기 : [링크](http://jerrytory.tistory.com/4?category=695214)
