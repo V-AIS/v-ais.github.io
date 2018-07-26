@@ -10,7 +10,7 @@
 - 제 1회 V.AIS 세미나
 - 일시 : 2018.08.18 토요일 PM 5~7
 - 장소 : 강남
-- 기타 : 참여하고 싶으신 분들은 [여기에]( https://docs.google.com/forms/d/e/1FAIpQLSfL-m-dyuH8_T0gVV9nBCOLECgyUx4QhiVl3rngixMbBZvpoQ/viewform) 응답해 주시기 바랍니다~
+- 기타 : 참여하고 싶으신 분들은 [여기에](https://docs.google.com/forms/d/e/1FAIpQLSfL-m-dyuH8_T0gVV9nBCOLECgyUx4QhiVl3rngixMbBZvpoQ/viewform) 응답해 주시기 바랍니다~
 
 
 ## 자료 모음집
