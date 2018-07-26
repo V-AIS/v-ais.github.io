@@ -7,9 +7,11 @@
 - 건의 사항, 추가 정보는 [이슈 등록](https://github.com/OpenCVDL/OpenCVDL.github.io/issues) 에 등록해주세요!
 
 ## 공 지 사 항
-- 다음 세미나는 8월중으로 진행할 예정입니다.
+- 제 1회 V.AIS 세미나
+- 일시 : 2018.08.18 토요일 PM 5~7
+- 장소 : 강남
+- 기타 : 참여하고 싶으신 분들은 [여기에]( https://docs.google.com/forms/d/e/1FAIpQLSfL-m-dyuH8_T0gVV9nBCOLECgyUx4QhiVl3rngixMbBZvpoQ/viewform) 응답해 주시기 바랍니다~
 
-- Speaker 모집중! 운영진에게 연락주세요. (명함 기능 1:1 톡 아시죠?)
 
 ## 자료 모음집
 - :star: : 추천도
@@ -62,20 +64,33 @@
 
 ### 블로그
   - **브랜치(Amang Kim 개인블로그)** [링크](https://brunch.co.kr/@amangkim)  
+
   - **우아한 형제들** [링크](http://woowabros.github.io/)  
+
   - **홍정모 교수님 개인 블로그** [링크](https://blog.naver.com/prologue/PrologueList.nhn?blogId=atelierjpro)  
+
   - **이기창님 개인 블로그** [링크](https://ratsgo.github.io/)
+
   - **라온피플** [링크](https://laonple.blog.me/221019319607)  
+
   - **위키독스(Machine)** [링크](https://wikidocs.net/book/587)  
+
   - **State Of the Art Object Detection 자료 모음** [링크](https://handong1587.github.io/deep_learning/2015/10/09/object-detection.html)
+
   - **Python 모듈 설명 모음** [링크](http://awesome-python.com/)
+
+  - **선형대수학 강의 요약 블로그** [링크](http://twlab.tistory.com/m)  
+   MIT 선형대수학 강의를 한글로 정리
 
 ### PPT
   - **선형대수 요약**
 [링크1](https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c) [링크2](http://cs231n.github.io/python-numpy-tutorial/)
+
   - **CS230 텐서플로우 기초 정리** [링크](https://cs230-stanford.github.io/tensorflow-getting-started.html)
+
   - **Deep Systems (Ru)**
 [링크](https://deepsystems.ai/reviews)
+
   - **오일석 교수님 ppt**
 [링크](http://cv.jbnu.ac.kr/index.php?mid=ml)
 
