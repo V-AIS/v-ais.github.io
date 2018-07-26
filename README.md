@@ -10,7 +10,6 @@
 - 제 1회 V.AIS 세미나
 - 일시 : 2018.08.18 토요일 PM 5~7
 - 장소 : 강남
-<<<<<<< HEAD
 - 발표자 및 주제 :
   - 디비딥 : 텐서보드, 사용하고 계신가요?  
 ( 시각화의 중요성 및 텐서보드 활용법 )
@@ -20,9 +19,6 @@
 
   - 애송이 : 애송이의 CVPR2018 참관기
 - 기타 : 참여하고 싶으신 분들은 [여기에]( https://docs.google.com/forms/d/e/1FAIpQLSfL-m-dyuH8_T0gVV9nBCOLECgyUx4QhiVl3rngixMbBZvpoQ/viewform) 응답해 주시기 바랍니다~
-=======
-- 기타 : 참여하고 싶으신 분들은 [여기에](https://docs.google.com/forms/d/e/1FAIpQLSfL-m-dyuH8_T0gVV9nBCOLECgyUx4QhiVl3rngixMbBZvpoQ/viewform) 응답해 주시기 바랍니다~
->>>>>>> 5aaff02828b1d15d23595b80a6ca8a38a66eb07f
 
 
 ## 자료 모음집
