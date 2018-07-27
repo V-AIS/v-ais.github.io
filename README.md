@@ -17,7 +17,7 @@
   - 애송이 : 애송이의 CVPR2018 참관기
 
   - 피드v : 과거로의 여행 Part 1.  
-   영상처리 하나로 프로젝트 3개 하기 (feat. OpenCV 1.0 beta)
+   영상처리 하나로 프로젝트 3개 하기 (feat. OpenCV 0.5 beta)
 
 - 기타 : 참여하고 싶으신 분들은 **8월 4일까지** [여기에]( https://docs.google.com/forms/d/e/1FAIpQLSfL-m-dyuH8_T0gVV9nBCOLECgyUx4QhiVl3rngixMbBZvpoQ/viewform) 응답해 주시기 바랍니다~
 
