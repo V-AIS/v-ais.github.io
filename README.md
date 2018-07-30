@@ -242,4 +242,3 @@
 - Ubuntu 16.04.1에 CUDA & cudnn 설치하기 : [링크](http://jerrytory.tistory.com/4?category=695214)
 
 - Ubuntu 16.04에 Python-opencv 설치하기 : [링크](https://m.blog.naver.com/samsjang/220758479643)
-s
