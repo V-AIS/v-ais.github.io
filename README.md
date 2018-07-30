@@ -153,11 +153,11 @@
     [링크](http://www.edwith.org/linearalgebra4ai), [자료](https://github.com/OpenCVDL/OpenCVDL.github.io/blob/master/files/머신러닝을_위한_선형대수.zip) :star::star: :skull:
 
   - **Uniwise 해석학 3 시리즈(유료)**  
-    [1. 해석개론](http://uniwise.co.kr/uniwiseWeb/lecture/movieLectureDetail.html?subNo=2&searchSubjectCode=1020&searchLeccode=D201500118)  
+    [1. 해석개론](http://uniwise.co.kr/uniwiseWeb/lecture/movieLectureDetail.html?subNo=2&searchSubjectCode=1020&searchLeccode=D201500118):skull: :skull:  
     전공수학의 가장 기초인 해석개론에 대한 강의입니다.  
-    [2. 위상수학](http://uniwise.co.kr/uniwiseWeb/lecture/movieLectureDetail.html?subNo=2&searchSubjectCode=1128&searchLeccode=D201500138)  
+    [2. 위상수학](http://uniwise.co.kr/uniwiseWeb/lecture/movieLectureDetail.html?subNo=2&searchSubjectCode=1128&searchLeccode=D201500138):skull: :skull:  
     해석개론을 수강하시고 나서, 좀 더 고급 수학을 접하시고자 할 때 반드시 필요한 General Topology 에 대한 내용을 담고 있습니다.  
-    [3. 실해석학](http://uniwise.co.kr/uniwiseWeb/lecture/movieLectureDetail.html?subNo=2&searchSubjectCode=1223&searchLeccode=D201500250)  
+    [3. 실해석학](http://uniwise.co.kr/uniwiseWeb/lecture/movieLectureDetail.html?subNo=2&searchSubjectCode=1223&searchLeccode=D201500250):skull: :skull: :skull:  
     대학원 수준의 고급수학의 첫 단계인 실해석학 개론입니다.  
     실해석학에서는 현대적인 확률통계론의 근간이라고 할 수 있는 측도론에 대한 첫 발을 내딛으시게 됩니다.
 
