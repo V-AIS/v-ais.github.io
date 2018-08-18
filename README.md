@@ -7,7 +7,7 @@
 - 건의 사항, 추가 정보는 [이슈](https://github.com/OpenCVDL/OpenCVDL.github.io/issues) 에 등록해주세요!
 
 ## 공 지 사 항
-- 제 1회 V.AIS 세미나 건의사항 및 개선점
+- **제 1회 V.AIS 세미나 건의사항 및 개선점**
   - 첫 세미나라 이것 저것 미흡한 점이 많은 세미나였습니다. 건의사항 및 개선점을 [설문지](https://goo.gl/forms/tZvAQJFTVuNzFtZp2)에 작성해주세요!
 
 
