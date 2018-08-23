@@ -16,7 +16,7 @@
 - :skull: : 난이도
 
 ### 세미자 자료
-  - 제 1회 V.AIS 세미나 자료 [다운로드](https://github.com/V-AIS/v-ais.github.io/blob/master/files/The_1st_V_ais_Seminar.zip)
+  - 제 1회 V.AIS 세미나 자료 [다운로드](https://github.com/V-AIS/v-ais.github.io/raw/master/files/The_1st_V_ais_Seminar.zip)
 
 ### 동영상 강의
 #### 영어
@@ -142,7 +142,7 @@
     파이썬 입문자에게 추천
 
   - **머신러닝을 위한 선형대수(주재걸 교수)**
-    [링크](http://www.edwith.org/linearalgebra4ai), [자료](https://github.com/OpenCVDL/OpenCVDL.github.io/blob/master/files/머신러닝을_위한_선형대수.zip) :star::star: :skull:
+    [링크](http://www.edwith.org/linearalgebra4ai), [자료](https://github.com/V-AIS/v-ais.github.io/raw/master/files/머신러닝을_위한_선형대수.zip) :star::star: :skull:
 
   - **Uniwise 해석학 3 시리즈(유료)**  
     [1. 해석개론](http://uniwise.co.kr/uniwiseWeb/lecture/movieLectureDetail.html?subNo=2&searchSubjectCode=1020&searchLeccode=D201500118):skull: :skull:  
