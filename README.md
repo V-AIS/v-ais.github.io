@@ -15,7 +15,7 @@
 - :star: : 추천도
 - :skull: : 난이도
 
-### 세미자 자료
+### 세미나 자료
   - 제 1회 V.AIS 세미나 자료 [다운로드](https://github.com/V-AIS/v-ais.github.io/raw/master/files/The_1st_V_ais_Seminar.zip)
 
 ### 동영상 강의
