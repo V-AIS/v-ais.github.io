@@ -10,13 +10,12 @@
 - **제 1회 V.AIS 세미나 건의사항 및 개선점**
   - 첫 세미나라 이것 저것 미흡한 점이 많은 세미나였습니다. 건의사항 및 개선점을 [설문지](https://goo.gl/forms/tZvAQJFTVuNzFtZp2)에 작성해주세요!
 
+## 세미나 자료
+  -  제 1회 V.AIS 세미나 자료 [다운로드](https://github.com/V-AIS/v-ais.github.io/raw/master/files/The_1st_V_ais_Seminar.zip)
 
 ## 자료 모음집
 - :star: : 추천도
 - :skull: : 난이도
-
-### 세미나 자료
-  - 제 1회 V.AIS 세미나 자료 [다운로드](https://github.com/V-AIS/v-ais.github.io/raw/master/files/The_1st_V_ais_Seminar.zip)
 
 ### 동영상 강의
 #### 영어
