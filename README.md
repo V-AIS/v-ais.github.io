@@ -130,8 +130,10 @@
   - **테리의 딥러닝 토크**
     [링크](https://www.youtube.com/playlist?list=PL0oFI08O71gKEXITQ7OG2SCCXkrtid7Fq) :star: :skull:  
 
-  - **PR12 딥러닝 논문읽기 모임**
-    [링크](https://www.youtube.com/playlist?list=PLlMkM4tgfjnJhhd4wn5aj8fVTYJwIpWkS) :star::star::star: :skull::skull:  
+  - **PR12 딥러닝 논문읽기 모임 (Season 1)**
+    [링크](https://www.youtube.com/playlist?list=PLWKf9beHi3Tg50UoyTe6rIm20sVQOH1br) :star::star::star: :skull::skull:
+  - **PR12 딥러닝 논문읽기 모임 (Season 2)**
+    [링크](https://www.youtube.com/playlist?list=PLWKf9beHi3TgstcIn8K6dI_85_ppAxzB8) :star::star::star: :skull::skull: 
   주요 논문에 대한 해설 강의  
   논문을 읽기 전, 맛보기 역할
 
