@@ -1,5 +1,8 @@
 # V.AIS (Vision & Artificial Intelligence Study)
 ---
+
+<img src='./cover/logo.png'>
+
 - 이 페이지는 [영상처리 비젼, 딥러닝, 로봇 개발자](https://open.kakao.com/o/ghU9D1o) 오픈채팅 사용자를 위한 페이지입니다.
 
 - 닉네임을 닉네임/분야/직업 등으로 되도록이면 변경해주세요!
