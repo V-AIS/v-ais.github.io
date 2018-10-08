@@ -1,7 +1,7 @@
 # V.AIS (Vision & Artificial Intelligence Study)
 ---
 
-<img src='./cover/logo.png'>
+<img src='./cover/logo.jpg'>
 
 - 이 페이지는 [Vision & A.I. Study](https://open.kakao.com/o/ghU9D1o) 오픈채팅 사용자를 위한 페이지입니다.
 
@@ -26,7 +26,7 @@
   - 예시) Jerry/의료영상/석사과정
 
 ## 세미나 자료
-  -  제 1회 V.AIS 세미나 자료 [다운로드](https://github.com/V-AIS/v-ais.github.io/raw/master/files/The_1st_V_ais_Seminar.zip)
+  -  제 1회 V.AIS 세미나 자료 [다운로드](https://github.com/V-AIS/v-ais.github.io/raw/master/files/The_1st_V_ais_Seminar.zip)
 
 ## 자료 모음집
 - :star: : 추천도
