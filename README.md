@@ -3,15 +3,27 @@
 
 <img src='./cover/logo.png'>
 
-- 이 페이지는 [영상처리 비젼, 딥러닝, 로봇 개발자](https://open.kakao.com/o/ghU9D1o) 오픈채팅 사용자를 위한 페이지입니다.
+- 이 페이지는 [Vision & A.I. Study](https://open.kakao.com/o/ghU9D1o) 오픈채팅 사용자를 위한 페이지입니다.
 
-- 닉네임을 닉네임/분야/직업 등으로 되도록이면 변경해주세요!
+
 
 - 건의 사항, 추가 정보는 [이슈](https://github.com/OpenCVDL/OpenCVDL.github.io/issues) 에 등록해주세요!
 
 ## 공 지 사 항
-- **제 1회 V.AIS 세미나 건의사항 및 개선점**
-  - 첫 세미나라 이것 저것 미흡한 점이 많은 세미나였습니다. 건의사항 및 개선점을 [설문지](https://goo.gl/forms/tZvAQJFTVuNzFtZp2)에 작성해주세요!
+- 광고는 방장, 부방장 허락 후 게시 !
+
+- 본인 개인정보 언급 :o:
+
+- 타인 개인정보 언급 :x:
+
+- 타인 개인정보 캐내기 :x:
+
+- 닉네임 양식 통일!
+  - [닉네임/분야] 필수!:star:
+
+  - [경력/소속] 선택!
+
+  - 예시) Jerry/의료영상/석사과정
 
 ## 세미나 자료
   -  제 1회 V.AIS 세미나 자료 [다운로드](https://github.com/V-AIS/v-ais.github.io/raw/master/files/The_1st_V_ais_Seminar.zip)
