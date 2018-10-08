@@ -1,7 +1,7 @@
 # V.AIS (Vision & Artificial Intelligence Study)
 ---
 
-<img src='./cover/logo.jpg'>
+[<img src='./cover/logo.jpg'>](https://open.kakao.com/o/ghU9D1o)
 
 - 이 페이지는 [Vision & A.I. Study](https://open.kakao.com/o/ghU9D1o) 오픈채팅 사용자를 위한 페이지입니다.
 
