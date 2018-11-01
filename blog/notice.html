@@ -1,0 +1,37 @@
+---
+layout: page
+title: 공지 사항
+---
+
+<div class="tags-expo">
+  {% assign whole = site.categories.Notice %}
+  {% assign utags = whole[0].tags[0] %}
+  {% for npost in whole %}
+    {% assign ntag = npost.tags[0] %}
+    {% assign utags = utags | append: ", " %}
+    {% assign utags = utags | append: ntag %}
+  {% endfor %}
+  {% assign utags = utags | split: ", "%}
+  {% assign utags = utags | uniq %}
+  <div class="tags-expo-list">
+  </div>
+  <hr/>
+  <div class="tags-expo-section">
+    {% for tag in utags %}
+      <br>
+      <h2 id="{{ tags | slugify }}">{{ tag }}</h2>
+        <ul class="tags-expo-posts">
+          {% for npost in whole %}
+            {% if npost.tags contains tag %}
+              <h4><a class="post-title" href="{{ site.baseurl }}{{ npost.url }}">
+                <li style="margin-bottom: -0.7rem;">
+                  {{ npost.title }}
+                  <small class="post-date">{{ npost.date | date_to_string }}</small>
+                </li>
+              </a></h4>
+            {% endif %}
+          {% endfor %}
+        </ul>
+    {% endfor %}
+  </div>
+</div>
