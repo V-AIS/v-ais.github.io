@@ -29,7 +29,7 @@ author:
   gravatar:
   contact:
     #linkedin:  https://www.linkedin.com/in/gichanglee/
-    github:    https://github.com/v_ais
+    github:    https://github.com/V-AIS
     #facebook:  https://www.facebook.com/jerry.kim.566
     #twitter:  <hide>
     #weibo:    <hide>
@@ -53,7 +53,7 @@ category_page: '/blog/categories/'
 hero:
   #image: https://v_ais.github.io/public/img/main.png
   image: '/public/bunnies.gif'
-  caption: 
+  caption:
 
 # Puglins
 mathjax: true # whether support mathjax
