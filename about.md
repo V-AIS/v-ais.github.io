@@ -11,7 +11,7 @@ title: About
 
 - [V.AIS](https://open.kakao.com/o/ghU9D1o)
 
-- 오픈채팅 입장시 닉네임을 닉네임/분야/직업 등으로 되도록이면 변경해주세요!
+- 오픈채팅 입장시 닉네임을 **닉네임/분야/직업** 등으로 되도록이면 변경해주세요!
 
 - 건의 사항, 추가 정보는 [이슈](https://github.com/OpenCVDL/OpenCVDL.github.io/issues) 에 등록해주세요!
 

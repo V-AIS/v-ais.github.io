@@ -39,12 +39,13 @@ author:
 nav:
   Home:
     - '/'
+  About:
+    - '/about/'
   Contents:
     - '/blog/'
     - { 공지 사항: '/blog/notice/' }
     - { 자료 모음: '/blog/study/' }
-  About:
-    - '/about/'
+
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
@@ -53,7 +54,7 @@ category_page: '/blog/categories/'
 hero:
   #image: https://v_ais.github.io/public/img/main.png
   image: '/public/bunnies.gif'
-  caption:
+  caption: 처음 방문하신 분은 About 탭을 한번 봐주세요!
 
 # Puglins
 mathjax: true # whether support mathjax
