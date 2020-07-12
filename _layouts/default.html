@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  {% include head.html %}
+  <style>blockquote {font-size: 1em; line-height: 1.4}</style>
+  </head>
+  <body>
+
+    {% include sidebar.html %}
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+          <div class="top" style="position:fixed; right:10%; bottom:15px; display:none; z-index:9999;">
+            <a href="#">
+              <img src="{{ site.baseurl }}/public/top.png" width="40" height="40" class="top" style="border-radius:5px; background-color: #75b5aa; margin-bottom:0; margin-right:7px; float:left;">
+            </a>
+            <a href="{{ site.baseurl }}/blog/categories/">
+              <img src="{{ site.baseurl }}/public/tocategory.png" width="40" height="40" class="top" style="border-radius:5px; background-color: #75b5aa; margin-bottom:0; float:left;">
+            </a>
+          </div>
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title" align="center">
+            <a href="{{ site.baseurl }}/" title="Home" title="{{ site.title }}">
+              <img class="masthead-logo" src="{{ site.baseurl }}{{ site.logo }}"/>
+            </a>
+            <small>{{ site.tagline }}</small>
+            <img src="/public/search.png" width="20" height="20" style="position:absolute; top:1.3rem; right:1.5rem" data-toggle="modal" data-target="#myModal">
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        {{ content }}
+        </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Search</h4>
+        </div>
+        <div class="modal-body">
+
+    <h4><div id="search-container">
+      <input type="text" id="search-input" placeholder="검색어 입력" class="input" style="font-size: 1rem; width: 100%; padding: 10px; border: 0px; outline: none; float: left; background: #cecece;" autofocus>
+    </div></h4><br>
+
+      <div id="results">
+        <h1></h1>
+      <ul class="results"></ul>
+      </div>
+      <br><ul id="results-container"></ul>
+    </div>
+
+<!-- Script pointing to jekyll-search.js -->
+
+
+<script type="text/javascript">
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/dest/search.json',
+        searchResultTemplate: '<h4 style="margin-bottom:-0.5rem;"><a class="post-title" style="color:#ac4142;" href="{url}" title="{desc}">{title}</a> <small>{category}</small></h4>',
+        noResultsText: '<h4><br>문서가 존재하지 않습니다.</h4>',
+        limit: 15,
+        fuzzy: false,
+        exclude: ['Welcome']
+      })
+</script>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+          if (target === toggle) {
+            checkbox.checked = !checkbox.checked;
+            e.preventDefault();
+          } else if (checkbox.checked && !sidebar.contains(target)) {
+            /* click outside the sidebar when sidebar is open */
+            checkbox.checked = false;
+          }
+        }, false);
+      })(document);
+    </script>
+
+    {% if site.google_analytics_token %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics_token }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+
+  </body>
+  {% if site.disqus_short_name %}
+  <script id="dsq-count-scr" src="//{{ site.disqus_short_name }}.disqus.com/count.js" async></script>
+  {% endif %}
+</html>

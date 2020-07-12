@@ -1,0 +1,62 @@
+# Site Info
+title: V.ais
+tagline:
+description:
+url: http://V-ais.github.io
+logo: '/public/logo.png'
+encoding: utf-8
+
+# Site configurations
+plugins:
+  - jekyll-paginate
+  - jemoji
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+version: 1.0.0
+
+# About/contact
+author:
+  name: Jerry
+  description:
+  gravatar:
+  contact:
+    #linkedin:  https://www.linkedin.com/in/gichanglee/
+    github:    https://github.com/V-AIS
+    #facebook:  https://www.facebook.com/jerry.kim.566
+    #twitter:  <hide>
+    #weibo:    <hide>
+    #email:     mailto:jaeyeol2931@gc.gachon.ac.kr
+
+# Navigation (2nd level links supported)
+nav:
+  Home:
+    - '/'
+  About:
+    - '/about/'
+  Contents:
+    - '/blog/'
+    - { 공지 사항: '/blog/notice/' }
+    - { 자료 모음: '/blog/study/' }
+
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+  #image: https://v_ais.github.io/public/img/main.png
+  image: '/public/bunnies.gif'
+  caption: 처음 방문하신 분은 About 탭을 한번 봐주세요!
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: #'UA-93172815-1' # leave blank if you don't want google analytics
+disqus_short_name: 'kkkjerry' # leave blank if you don't want disqus
