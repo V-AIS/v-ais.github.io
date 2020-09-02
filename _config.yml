@@ -41,10 +41,12 @@ nav:
     - '/'
   About:
     - '/about/'
-  Contents:
+  Category:
     - '/blog/'
-    - { 공지 사항: '/blog/notice/' }
-    - { 자료 모음: '/blog/study/' }
+    - { Notice: '/blog/notice/' }
+    - { For Study: '/blog/study/' }
+    - { Sihan's Posting: '/blog/sihan/'}
+    - { Pega's Posting: '/blog/pega/'}
 
 
 # Where are tags and categories displayed
