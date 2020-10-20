@@ -43,20 +43,27 @@ def main(args):
     last_page = driver.find_element_by_xpath('//*[@id="page-nav"]/span[1]').text.split(' ')[-1]
     print(last_page)
 
+    num_fieldnames = None
+
+    try:
+        csv_file_read = open('crawler_checker.csv', mode='r')
+        reader = csv.DictReader(csv_file_read)
+        num_fieldnames = reader.fieldnames
+        print(num_fieldnames)
+    except:
+        print("Not exist")
+
+    fieldnames = ['date', 'title', 'link']    
+    csv_file_write = open('crawler_checker.csv', mode='a')
+    writer = csv.DictWriter(csv_file_write, fieldnames=fieldnames)
     
-    csv_file = open('crawler_checker.csv', mode='a')
-    reader = csv.DictReader(csv_file)
-    fieldnames = ['date', 'title', 'link']
-    writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-    num_lines = reader.line_num
     title_in_csv = []
 
-    if num_lines > 1:
+    if num_fieldnames:
         for row in reader:
             title_in_csv.append(row["title"])
     else:
         writer.writeheader()
-    
 
     dates = []
     titles = []
