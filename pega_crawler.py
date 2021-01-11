@@ -1,4 +1,3 @@
-# %%
 import os, csv, platform, argparse
 from tqdm import tqdm
 from bs4 import BeautifulSoup
@@ -41,20 +40,20 @@ def main(args):
     driver.get(main_page)
 
     last_page = driver.find_element_by_xpath('//*[@id="page-nav"]/span[1]').text.split(' ')[-1]
-    print(last_page)
+    print(f"Number of pages: {last_page}")
 
     num_fieldnames = None
 
     try:
-        csv_file_read = open('crawler_checker.csv', mode='r')
+        csv_file_read = open('crawler_checker_pega.csv', mode='r')
         reader = csv.DictReader(csv_file_read)
         num_fieldnames = reader.fieldnames
-        print(num_fieldnames)
+        print("Checker file is already exist!")
     except:
-        print("Not exist")
+        print("Checker file is  Not exist !")
 
     fieldnames = ['date', 'title', 'link']    
-    csv_file_write = open('crawler_checker.csv', mode='a')
+    csv_file_write = open('crawler_checker_pega.csv', mode='a')
     writer = csv.DictWriter(csv_file_write, fieldnames=fieldnames)
     
     title_in_csv = []
@@ -92,6 +91,7 @@ def main(args):
             
             if title in title_in_csv: continue
 
+            print(f"New Post ! ({title})")
             link = root+title_herf.contents[1].get("href")
             links.append(link)
             
