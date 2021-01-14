@@ -3,8 +3,8 @@ layout: post
 title: "[Book] 밑바닥부터 시작하는 딥러닝 3 "
 category: Sihan
 tag:
-  - 밑바닥
   - book
+  - 밑바닥
   - Hanbit
   - ML
   - DL

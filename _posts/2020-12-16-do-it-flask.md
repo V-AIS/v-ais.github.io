@@ -3,9 +3,9 @@ layout: post
 title: "[Book] Do it! 점프 투 플라스크"
 category: Sihan
 tag:
+  - book
   - flask
   - python
-  - book
   - doit
 ---
 
