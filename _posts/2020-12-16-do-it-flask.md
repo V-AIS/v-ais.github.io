@@ -1,18 +1,12 @@
 ---
 layout: post
 title: "[Book] Do it! 점프 투 플라스크"
-date: 2020-12-16
-excerpt: "파이썬 개발자를 위한 웹 프레임워크"
-sitemap:
-    changefreq: daily
-    priority: 1.0
-review: true
+category: Sihan
 tag:
-    - flask
-    - python
-    - book
-    - doit
-comments: true
+  - flask
+  - python
+  - book
+  - doit
 ---
 
 ![flask](https://sihan-son.github.io/public/book/easy/flask.jfif)

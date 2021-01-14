@@ -1,19 +1,13 @@
 ---
 layout: post
 title: "[Book] 데이터 과학을 위한 통계"
-date: 2020-09-11
-excerpt: "통계를 시작했지만 데이터 과학에 어떻게 적용해야 할지 헤매는 당신에게"
-sitemap:
-    changefreq: daily
-    priority: 1.0
-review: true
+category: Sihan
 tag:
-    - statics
-    - book
-    - hanbit
-    - 2020reviewer
-    - R
-comments: true
+  - statics
+  - book
+  - hanbit
+  - 2020reviewer
+  - R
 ---
 
 ![mysql](https://sihan-son.github.io/public/book/hanbit/statics.jpg)

@@ -1,20 +1,16 @@
 ---
 layout: post
 title: "[Book] 밑바닥부터 시작하는 딥러닝 3 "
-date: 2021-01-14
-excerpt: "내가 직접 만드는 딥러닝 프레임워크 DeZero"
-sitemap:
-    changefreq: daily
-    priority: 1.0
-review: true
+category: Sihan
 tag:
-    - 밑바닥
-    - book
-    - Hanbit
-    - ML
-    - DL
-comments: true
+  - 밑바닥
+  - book
+  - Hanbit
+  - ML
+  - DL
 ---
+
+![swift](https://sihan-son.github.io/public/book/hanbit/DL_Scratch_3.jfif)
 
 `Deep Learning`(이하 `DL`)은 배우기 쉬운데 어려운, 굉장히 아이러니한 분야가 되어가고 있습니다. 강력하고 좋은 프레임워크와 튜토리얼들이 배움과 사용의 문턱을 굉장히 낮추어 주었습니다. 이는 동전의 양면처럼 장단점이 극명하게 나뉘는 결과를 초래했습니다. 문턱이 낮아지면서 다양한 아이디어와 기술들이 분야에 기여하고, 흥미 있고 능력있는 친두들을 일찍 발굴해 내는 등의 장점이 있습니다. 동시에 레트로 식품을 서빙하는 식당들이 많아지고 있습니다. 모델에 대한 이해 없이 하이퍼파라메타와 데이터셋만 조금 바꾸어 결과를 뽑아 사용하는 말 그대로 밑바닥이 부족한 사용자들도 속출하는 듯 합니다. 저도 후자에 속하는 사람이었습니다.
 
@@ -36,8 +32,3 @@ comments: true
 베타리더로 참가해 작성한 서평입니다.
 
 ---
-
-![swift](https://sihan-son.github.io/public/book/hanbit/DL_Scratch_3.jfif)
-
-정말 잘 쓰고 싶었는데 어딘가 만족 안되는 글이 되었습니다.  
-20번째 서평인데 이번달에 한두권 정도 더 쓴 다음에 블로그 테마부터 전체적인 개편을 하려고 합니다. 지금까지는 책에 대한 간단한 내용소개와 다른 책과 차이점, 추천 독자, 역서의 경우 번역에 대해 이야기를 했는데추가 했으면 하는 내용이 있으면 페이스북이나 블로그 댓글로 피드백 주시면 반영해 보겠습니다.

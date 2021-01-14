@@ -1,19 +1,13 @@
 ---
 layout: post
 title: "[Book] 다시 확률 통계 -확률편-"
-date: 2021-01-06
-excerpt: "가위 바위 보를 이기고 싶다면 "
-sitemap:
-    changefreq: daily
-    priority: 1.0
-review: true
+category: Sihan
 tag:
-    - Probability
-    - Statistics
-    - math
-    - book
-    - gilbut
-comments: true
+  - Probability
+  - Statistics
+  - math
+  - book
+  - gilbut
 ---
 
 ![fig.1](https://sihan-son.github.io/public/book/gilbut/again-pro/1.jfif)

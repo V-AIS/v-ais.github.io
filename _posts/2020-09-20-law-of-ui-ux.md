@@ -1,18 +1,12 @@
 ---
 layout: post
 title: "[Book] UX/UI의 10가지 심리학 법칙"
-date: 2020-09-20
-excerpt: "당신의 서비스는 사용자의 마음을 읽고 있는가?"
-sitemap:
-    changefreq: daily
-    priority: 1.0
-review: true
+category: Sihan
 tag:
-    - 책만
-    - book
-    - UI
-    - US
-comments: true
+  - 책만
+  - book
+  - UI
+  - US
 ---
 
 ![uiux](https://sihan-son.github.io/public/book/chaekman/uiux.jpg)
