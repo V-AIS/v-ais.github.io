@@ -3,7 +3,7 @@ layout: post
 title: "[Book] 다시 확률 통계 -확률편-"
 category: Sihan
 tag:
-  - book
+  - Book
   - Probability
   - Statistics
   - math

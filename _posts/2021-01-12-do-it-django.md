@@ -4,7 +4,7 @@ title: "[Book] Do it! 점프 투 장고"
 category: Sihan
 
 tag:
-  - book
+  - Book
   - django
   - python
   - doit

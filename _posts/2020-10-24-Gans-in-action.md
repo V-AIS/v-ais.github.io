@@ -3,8 +3,8 @@ layout: post
 title: "[Book] GANs in Action"
 category: Sihan
 tag:
+  - Book
   - GAN
-  - book
   - Hanbit
   - 2020reviewer
   - ML

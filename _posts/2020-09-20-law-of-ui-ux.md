@@ -3,7 +3,7 @@ layout: post
 title: "[Book] UX/UI의 10가지 심리학 법칙"
 category: Sihan
 tag:
-  - book
+  - Book
   - 책만
   - UI
   - US

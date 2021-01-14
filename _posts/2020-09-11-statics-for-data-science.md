@@ -3,8 +3,8 @@ layout: post
 title: "[Book] 데이터 과학을 위한 통계"
 category: Sihan
 tag:
+  - Book
   - statics
-  - book
   - hanbit
   - 2020reviewer
   - R

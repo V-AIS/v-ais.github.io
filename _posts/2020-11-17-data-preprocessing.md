@@ -3,7 +3,7 @@ layout: post
 title: "[Book] 데이터 전처리 대전"
 category: Sihan
 tag:
-  - book
+  - Book
   - data preprocessing
   - Hanbit
   - 2020reviewer
