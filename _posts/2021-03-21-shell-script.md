@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "처음 배우는 셸 스크립트"
+title: "[Book] 처음 배우는 셸 스크립트"
 date: 2021-03-20
 tags:
   - Book
@@ -8,9 +8,11 @@ tags:
   - script
   - 2021reviewer
   - hanbit
+
+category: Sihan
 ---
 
-![swift](https://v-ais.github.io/public/book/hanbit/alone.jfif)
+![swift](https://v-ais.github.ios/public/book/hanbit/alone.jfif)
 
 3월에 소개 할 책은 `처음 배우는 셸 스크립트`입니다. 프로그래밍이나 컴퓨터에 친숙하신 분들은 `cmd`, `console`, `bash` 등의 이름을 가진 프로그램을 사용하거나 들어보셨을 것 입니다. 정확한 설명은 아니지만 이런 명령창들을 통칭 `쉘`이라고 합니다. 이 책에서 다루고 있는 `쉘 스크립트`는 `shell`에서 사용하는 명령어들을 모아서 자동화 과정을 만들어 주는 것이라고 생각하면 좋을 것 같습니다.
 
