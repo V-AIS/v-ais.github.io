@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>https://v-ais.github.io/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://v-ais.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book</title>
+      <link>https://v-ais.github.io/tags/Book/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/tags/Book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Media</title>
+      <link>https://v-ais.github.io/tags/Media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/tags/Media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notice</title>
+      <link>https://v-ais.github.io/tags/Notice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/tags/Notice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Study</title>
+      <link>https://v-ais.github.io/tags/Study/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/tags/Study/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

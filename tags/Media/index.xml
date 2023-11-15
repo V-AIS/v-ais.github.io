@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Media on </title>
+    <link>https://v-ais.github.io/tags/Media/</link>
+    <description>Recent content in Media on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://v-ais.github.io/tags/Media/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>동영상 강의 모음</title>
+      <link>https://v-ais.github.io/2.Study/media_recommend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/2.Study/media_recommend/</guid>
+      <description>자료 모음집 #  ⭐️ : 추천도
+💀 : 난이도
+동영상 강의 #  영어 #    CS231n 2016_링크, 2017_링크, 2017_한글 자막 ⭐️ ⭐️ ⭐️ 💀 💀
+Computer Vision 분야에서 가장 중요하고 기초적인 스탠포드 대학 강의
+  구글 머신러닝 단기집중과정 (한글자막) 링크 ⭐️ 💀
+구글에서 제작한 비전공자들도 쉽게 들을 수 있는 강의
+  Udacity Computer Vision(영어자막) ⭐️ 💀 💀 링크
+Computer Vision 개론 강의
+학부 4학년과 석사과정에서 수강할 수 있는 가장 기본적인 컴퓨터 비전 강의</description>
+    </item>
+    
+  </channel>
+</rss>

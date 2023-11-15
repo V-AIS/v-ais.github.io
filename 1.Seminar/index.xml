@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1. 세미나 자료 on </title>
+    <link>https://v-ais.github.io/1.Seminar/</link>
+    <description>Recent content in 1. 세미나 자료 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://v-ais.github.io/1.Seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://v-ais.github.io/1.Seminar/1st_seminar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/1.Seminar/1st_seminar/</guid>
+      <description>세미나 자료는 추후 구글 드라이브 링크로 업데이트 예정입니다!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://v-ais.github.io/1.Seminar/2nd_seminar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/1.Seminar/2nd_seminar/</guid>
+      <description>세미나 자료는 추후 구글 드라이브 링크로 업데이트 예정입니다!</description>
+    </item>
+    
+  </channel>
+</rss>
