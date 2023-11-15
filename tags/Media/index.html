@@ -144,13 +144,13 @@ https://github.com/alex-shpak/hugo-book
   const PRODUCTION =  true 
   const BASE_URL = "https://v-ais.github.io"
   const fetchData = Promise.all([
-        fetch("https:\/\/v-ais.github.io\/indices\/linkIndex.f6425e3c9c5a78cb1a57d6271bd0c88d.min.json")
+        fetch("https:\/\/v-ais.github.io\/indices\/linkIndex.e77416d15b21f300430f657f3a41b113.min.json")
           .then(data => data.json())
           .then(data => ({
             index: data.index,
             links: data.links,
           })),
-        fetch("https:\/\/v-ais.github.io\/indices\/contentIndex.56753ef950db2332e50166167e5b613e.min.json")
+        fetch("https:\/\/v-ais.github.io\/indices\/contentIndex.aff39237410a2f9087e22654ff08140a.min.json")
           .then(data => data.json()),
       ])
       .then(([{index, links}, content]) => ({
@@ -177,28 +177,10 @@ https://github.com/alex-shpak/hugo-book
     
     initPopover(
       "https://v-ais.github.io",
-       true 
+       false 
     )
     
 
-    
-    const footer = document.getElementById("footer")
-    if (footer) {
-      const container = document.getElementById("graph-container")
-      
-      if (!container) return requestAnimationFrame(render)
-      
-      container.textContent = ""
-
-      const drawGlobal = isHome &&  true ;
-      drawGraph(
-          "https://v-ais.github.io",
-          drawGlobal,
-          [{"/moc":"#4388cc"}],
-          drawGlobal ? {"centerForce":1,"depth":-1,"enableDrag":true,"enableLegend":false,"enableZoom":true,"fontSize":0.5,"linkDistance":1,"opacityScale":3,"repelForce":1,"scale":1.4} : {"centerForce":1,"depth":1,"enableDrag":true,"enableLegend":false,"enableZoom":true,"fontSize":0.6,"linkDistance":1,"opacityScale":3,"repelForce":2,"scale":1.2}
-        );
-
-      }
     
 
     
@@ -438,7 +420,57 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/2.Study/etc_recommend/" class="">그 외 자료</a>
+    <input type="checkbox" id="section-3e5c8f19baef6e86e8d4e508f74c0ac8" class="toggle"  />
+    <label for="section-3e5c8f19baef6e86e8d4e508f74c0ac8" class="flex justify-between">
+      <a role="button" class="book-collapse-toggle ">0. Beginner</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/2.Study/beginner/setting/" class="">개발 환경 구축</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d424fdcc664439b089c1148cc1e431e9" class="toggle"  />
+    <label for="section-d424fdcc664439b089c1148cc1e431e9" class="flex justify-between">
+      <a role="button" class="book-collapse-toggle ">N. Legacy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/2.Study/legacy/etc_recommend/" class="">그 외 자료</a>
   
 
         </li>
@@ -451,7 +483,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/2.Study/media_recommend/" class="">동영상 강의 모음</a>
+    <a href="/2.Study/legacy/media_recommend/" class="">동영상 강의 모음</a>
   
 
         </li>
@@ -464,8 +496,68 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/2.Study/book_recommend/" class="">서적 모음</a>
+    <a href="/2.Study/legacy/book_recommend/" class="">서적 모음</a>
   
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-59c2b08ef562948c2fdb5104fd1d0183" class="toggle"  />
+    <label for="section-59c2b08ef562948c2fdb5104fd1d0183" class="flex justify-between">
+      <a role="button" class="book-collapse-toggle ">3. 리뷰 자료</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4b2c8b975194dfe2a25bee1ac59d7878" class="toggle"  />
+    <label for="section-4b2c8b975194dfe2a25bee1ac59d7878" class="flex justify-between">
+      <a role="button" class="book-collapse-toggle ">Sihan&#39;s Review</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/3.Review/sihan/ml_book_rebiew_gilbut_1/" class="">머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로</a>
+  
+
+        </li>
+      
+    
+  </ul>
 
         </li>
       
@@ -522,7 +614,7 @@ https://github.com/alex-shpak/hugo-book
   
   <article class="markdown book-post">
     <h2>
-      <a href="/2.Study/media_recommend/">동영상 강의 모음</a>
+      <a href="/2.Study/legacy/media_recommend/">동영상 강의 모음</a>
     </h2>
     
 
@@ -549,7 +641,7 @@ Computer Vision 분야에서 가장 중요하고 기초적인 스탠포드 대�
   Udacity Computer Vision(영어자막) ⭐️ 💀 💀 링크
 Computer Vision 개론 강의
 학부 4학년과 석사과정에서 수강할 수 있는 가장 기본적인 컴퓨터 비전 강의
-        <a href="/2.Study/media_recommend/">...</a>
+        <a href="/2.Study/legacy/media_recommend/">...</a>
       
     </p>
   </article>

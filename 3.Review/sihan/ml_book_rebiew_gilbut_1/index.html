@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta property="og:title" content="머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로" />
+<meta property="og:description" content="원문 링크
+이 책은 다른 머신러닝 도서가 그렇듯이 인공지능이 어떤 역사를 가지고 발전했는지로 이야기를 시작합니다. 머신러닝에서 사용되는 전반인 용어와 표기법에 대한 정의로 글을 시작하기 때문에 입문서로 큰 장점이라고 생각됩니다. 입문서라고 나온 도서들 중에도 번역된 용어와 원어가 혼재되어 사용되어 인터넷에서 얻는 자료와 용어차이에서 오는 괴리감이 있는데 이 책은 그 부분을 해결 해주는 부분이 있습니다.
+파이썬에 익숙하지 않은 사용자를 위해서 패키지 관리를 위해 pip와 conda에 대한 사용법도 제시하고 있습니다. 하지만 파이썬 문법에 대한 설명이 없기 때문에 파이썬은 어느 정도 익힌 다음에 읽는 것을 추천합니다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://v-ais.github.io/3.Review/sihan/ml_book_rebiew_gilbut_1/" /><meta property="article:section" content="3.Review" />
+
+<meta property="og:site_name" content="📓 V-AIS" />
+
+<title>머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로 | 📓 V-AIS</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.45ec1f6261e17c6488824ac77b6b8a0c11eef38eaed587cfecad4b284f57ee79.css" integrity="sha256-RewfYmHhfGSIgkrHe2uKDBHu846u1YfP7K1LKE9X7nk=" crossorigin="anonymous">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YW2KRWMBVT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YW2KRWMBVT');
+</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1054696837285307"
+     crossorigin="anonymous"></script>
+
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+  
+
+
+
+<meta charset="UTF-8" />
+<meta
+  name="description"
+  content="원문 링크
+이 책은 다른 머신러닝 도서가 그렇듯이 인공지능이 어떤 역사를 가지고 발전했는지로 이야기를 시작합니다. 머신러닝에서 사용되는 전반인 용어와 표기법에 대한 정의로 글을 시작하기 때문에 입문서로 큰 장점이라고 생각됩니다. 입문서라고 나온 도서들 중에도 번역된 용어와 원어가 혼재되어 사용되어 인터넷에서 얻는 자료와 용어차이에서 오는 괴리감이 있는데 이 책은 그 부분을 해결 해주는 부분이 있습니다.
+파이썬에 익숙하지 않은 사용자를 위해서 패키지 관리를 위해 pip와 conda에 대한 사용법도 제시하고 있습니다. 하지만 파이썬 문법에 대한 설명이 없기 때문에 파이썬은 어느 정도 익힌 다음에 읽는 것을 추천합니다."
+/>
+<title>
+  머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+
+
+
+<link rel="shortcut icon" type="image/png"  href="https://v-ais.github.io/favicon.png" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<link href="https://v-ais.github.io/styles.e08ceb33360cec132feb69cfb982e2a4.min.css" rel="stylesheet" />
+
+
+<link href="https://v-ais.github.io/quartz/styles/_light_syntax.86a48a52faebeaaf42158b72922b1c90.min.css" rel="stylesheet" id="theme-link">
+
+  
+
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+      integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"
+        integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx"
+        crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js"
+        integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR"
+        crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/copy-tex.min.js"
+        integrity="sha384-ww/583aHhxWkz5DEVn6OKtNiIaLi2iBRNZXfJRiY1Ai7tnJ9UXpEsyvOITVpTl4A"
+        crossorigin="anonymous"></script>
+
+  
+
+
+
+
+
+
+<script src="https://v-ais.github.io/quartz/js/darkmode.1a1080eafb7ce5d3bbbf8b1d371a69d3.min.js"></script>
+
+
+
+<script src="https://v-ais.github.io/quartz/js/util.c69e233dc1cc331a30b0f670e657b425.min.js"></script>
+
+
+
+<script async src="https://unpkg.com/@floating-ui/core@0.7.3"></script>
+<script async src="https://unpkg.com/@floating-ui/dom@0.5.4"></script>
+
+<script src="https://v-ais.github.io/quartz/js/popover.f03552ccb84d99ca615d1cfb9abde59e.min.js"></script>
+
+
+
+
+<script defer src="https://v-ais.github.io/quartz/js/code-title.ce4a43f09239a9efb48fee342e8ef2df.min.js"></script>
+
+
+
+
+<script defer src="https://v-ais.github.io/quartz/js/clipboard.2913da76d3cb21c5deaa4bae7da38c9f.min.js"></script>
+
+
+
+
+<script defer src="https://v-ais.github.io/quartz/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js"></script>
+
+
+
+ 
+<script>
+  const SEARCH_ENABLED =  false 
+  const LATEX_ENABLED =  true 
+  const PRODUCTION =  true 
+  const BASE_URL = "https://v-ais.github.io"
+  const fetchData = Promise.all([
+        fetch("https:\/\/v-ais.github.io\/indices\/linkIndex.e77416d15b21f300430f657f3a41b113.min.json")
+          .then(data => data.json())
+          .then(data => ({
+            index: data.index,
+            links: data.links,
+          })),
+        fetch("https:\/\/v-ais.github.io\/indices\/contentIndex.aff39237410a2f9087e22654ff08140a.min.json")
+          .then(data => data.json()),
+      ])
+      .then(([{index, links}, content]) => ({
+        index,
+        links,
+        content,
+      }))
+
+    const render = () => {
+    
+    const siteBaseURL = new URL(BASE_URL);
+    const pathBase = siteBaseURL.pathname;
+    const pathWindow = window.location.pathname;
+    const isHome = pathBase == pathWindow;
+
+    addCopyButtons();
+    
+
+    
+
+    addCollapsibleCallouts();
+    
+
+    
+    initPopover(
+      "https://v-ais.github.io",
+       false 
+    )
+    
+
+    
+
+    
+      var els = document.getElementsByClassName("mermaid");
+      if (els.length > 0) {
+        import('https://unpkg.com/mermaid@9/dist/mermaid.esm.min.mjs').then(
+          (obj) => {
+            
+            
+            obj.default.init();
+          }
+        )
+      }
+    
+  }
+
+  const init = (doc = document) => {
+    
+    addCopyButtons();
+    
+
+    addTitleToCodeBlocks();
+    renderMathInElement(doc.body, {
+      delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$', right: '$', display: false},
+      ],
+      macros: {
+        '’': "'"
+      },
+      throwOnError : false
+    });
+    
+  };
+</script>
+
+<script>
+  window.Million = {
+    navigate: (url) => (window.location.href = url),
+    prefetch: () => {},
+  }
+
+  window.addEventListener("DOMContentLoaded", () => {
+    init()
+    render()
+  })
+</script>
+
+
+</head>
+<div id="search-container">
+  <div id="search-space">
+    <input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search"
+      placeholder="Search for something..." dir="">
+    <div id="results-container">
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"
+  integrity="sha256-i3A0NZGkhsKjVMzFxv3ksk0DZh3aXqu0l49Bbh0MdjE=" crossorigin="anonymous" defer></script>
+
+<script defer src="https://v-ais.github.io/quartz/js/full-text-search.e6e2e0c213187ca0c703d6e2c7a77fcd.min.js"></script>
+
+
+
+<header class="book-header">
+    
+    <label for="menu-control">
+      <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+    </label>
+    <h1 id="page-title"><a href="https://v-ais.github.io">📓 V-AIS</a></h1>
+    <div class="spacer"></div>
+    <div id="search-icon" class="quartz-search">
+      <p>Search</p>
+      <svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg>
+    </div>
+    <div class='darkmode'>
+    <input class='toggle' id='darkmode-toggle' type='checkbox' tabindex="-1">
+    <label id="toggle-label-light" for='darkmode-toggle' tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve">
+            <title>Light Mode</title>
+            <path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z" />
+        </svg>
+    </label>
+    <label id="toggle-label-dark" for='darkmode-toggle' tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xml:space="preserve">
+            <title>Dark Mode</title>
+            <path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z" />
+        </svg>
+    </label>
+</div>
+</header>
+
+
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <main class="flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<div class="menu-search">
+  <div id="search-icon" class="quartz-search">
+    <p>Search</p>
+    <svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7">
+      <title id="title">Search Icon</title>
+      <desc id="desc">Icon to open search</desc>
+      <g class="search-path" fill="none">
+        <path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4" />
+        <circle cx="8" cy="8" r="7" />
+      </g>
+    </svg>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-3728a874af6564e2d2f0efe9e07a0e9a" class="toggle"  />
+    <label for="section-3728a874af6564e2d2f0efe9e07a0e9a" class="flex justify-between">
+      <a role="button" class="book-collapse-toggle ">0. 공지 사항</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/0.Notice/contents_in_blog/" class="">블로그에 있으면 하는 내용</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ef038d2c7dd83e09645b576080206b63" class="toggle"  />
+    <label for="section-ef038d2c7dd83e09645b576080206b63" class="flex justify-between">
+      <a role="button" class="book-collapse-toggle ">1. 세미나 자료</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/1.Seminar/1st_seminar/" class="">제 1회 V-AIS 세미나 자료</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/1.Seminar/2nd_seminar/" class="">제 2회 V-AIS 세미나 자료</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5e34d9f652cd5701d1c7f1e4363b4e07" class="toggle"  />
+    <label for="section-5e34d9f652cd5701d1c7f1e4363b4e07" class="flex justify-between">
+      <a role="button" class="book-collapse-toggle ">2. 공부 자료</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-3e5c8f19baef6e86e8d4e508f74c0ac8" class="toggle"  />
+    <label for="section-3e5c8f19baef6e86e8d4e508f74c0ac8" class="flex justify-between">
+      <a role="button" class="book-collapse-toggle ">0. Beginner</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/2.Study/beginner/setting/" class="">개발 환경 구축</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d424fdcc664439b089c1148cc1e431e9" class="toggle"  />
+    <label for="section-d424fdcc664439b089c1148cc1e431e9" class="flex justify-between">
+      <a role="button" class="book-collapse-toggle ">N. Legacy</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/2.Study/legacy/etc_recommend/" class="">그 외 자료</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/2.Study/legacy/media_recommend/" class="">동영상 강의 모음</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/2.Study/legacy/book_recommend/" class="">서적 모음</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-59c2b08ef562948c2fdb5104fd1d0183" class="toggle" checked />
+    <label for="section-59c2b08ef562948c2fdb5104fd1d0183" class="flex justify-between">
+      <a role="button" class="book-collapse-toggle ">3. 리뷰 자료</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4b2c8b975194dfe2a25bee1ac59d7878" class="toggle" checked />
+    <label for="section-4b2c8b975194dfe2a25bee1ac59d7878" class="flex justify-between">
+      <a role="button" class="book-collapse-toggle ">Sihan&#39;s Review</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/3.Review/sihan/ml_book_rebiew_gilbut_1/" class="active">머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/v-ais"  target="_blank" rel="noopener">
+        Github
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+    <div class="book-page container">
+      
+
+      
+      
+  <article class="markdown">
+    <h1 class="title">머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로</h1>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+<p>
+<a href="https://sihan-son.github.io/book/ml-book-review-gilbut-1/" rel="noopener">원문 링크</a></p>
+<img src = 'https://sihan-son.github.io/images/blog/book1.jpg'>
+<p>이 책은 다른 머신러닝 도서가 그렇듯이 인공지능이 어떤 역사를 가지고 발전했는지로 이야기를 시작합니다. 머신러닝에서 사용되는 전반인 용어와 표기법에 대한 정의로 글을 시작하기 때문에 입문서로 큰 장점이라고 생각됩니다. 입문서라고 나온 도서들 중에도 번역된 용어와 원어가 혼재되어 사용되어 인터넷에서 얻는 자료와 용어차이에서 오는 괴리감이 있는데 이 책은 그 부분을 해결 해주는 부분이 있습니다.</p>
+<p>파이썬에 익숙하지 않은 사용자를 위해서 패키지 관리를 위해 <code>pip</code>와 <code>conda</code>에 대한 사용법도 제시하고 있습니다. 하지만 파이썬 문법에 대한 설명이 없기 때문에 파이썬은 어느 정도 익힌 다음에 읽는 것을 추천합니다.</p>
+<p>2장부터는 실제적인 실습으로 들어갑니다. <code>퍼셉트론</code>으로 시작해서 익숙하지 않았던 <code>아달린</code> 모델 등 프레임워크를 이용하지 않고, <code>numpy</code>와 <code>sklearn</code>을 이용해서 코드를 작성하기 때문에 <code>PYTHON</code>에 익숙해지고 머신러닝의 개념을 잡기에 좋은 구성이라고 생각합니다. 수학 또한 어떤식으로 유도가 되고 어떻게 적용이 되는지 알려주기 때문에 수학적으로 탄탄이 갖출 수 있는 책입니다.</p>
+<img src = 'https://sihan-son.github.io/images/book/gilbut/ml/2.jpg'>  
+<p>처럼 수식을 통해서 설명을 하고 있어서 느낌적으로 이해 하는 것이 아니라 실제적으로 어떤 과정을 통해서 유도 하는지 보여주고 있습니다</p>
+<img src = 'https://sihan-son.github.io/images/book/gilbut/ml/1.jpg'>   
+<p>기하적으로 어떤식으로 규제와 <code>Loss</code>가 사용되는지 보여주기 때문에 다른 책을 통해서 봤을 때 이해가 되지 않던 부분이 명확지는 느낌을 받을 수가 있습니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Perceptron</span>(object):
+    
+    <span style="color:#66d9ef">def</span> __init__(self, eta<span style="color:#f92672">=</span><span style="color:#ae81ff">0.01</span>, n_iter<span style="color:#f92672">=</span><span style="color:#ae81ff">50</span>, random_state<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>):
+        self<span style="color:#f92672">.</span>eta <span style="color:#f92672">=</span> eta
+        self<span style="color:#f92672">.</span>n_iter <span style="color:#f92672">=</span> n_iter
+        self<span style="color:#f92672">.</span>random_state <span style="color:#f92672">=</span> random_state
+    
+    
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">fit</span>(self, X, y):
+        rgen <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>RandomState(self<span style="color:#f92672">.</span>random_state)
+        self<span style="color:#f92672">.</span>w_ <span style="color:#f92672">=</span> rgen<span style="color:#f92672">.</span>normal(loc<span style="color:#f92672">=</span><span style="color:#ae81ff">0.0</span>, scale<span style="color:#f92672">=</span><span style="color:#ae81ff">0.01</span>, size<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span><span style="color:#f92672">+</span>X<span style="color:#f92672">.</span>shape[<span style="color:#ae81ff">1</span>])
+        self<span style="color:#f92672">.</span>errors_ <span style="color:#f92672">=</span> []
+        
+        <span style="color:#66d9ef">for</span> _ <span style="color:#f92672">in</span> range(self<span style="color:#f92672">.</span>n_iter):
+            errors <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+            <span style="color:#66d9ef">for</span> xi, target <span style="color:#f92672">in</span> zip(X, y):
+                update <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>eta <span style="color:#f92672">*</span> (target <span style="color:#f92672">-</span> self<span style="color:#f92672">.</span>predict(xi))
+                self<span style="color:#f92672">.</span>w_[<span style="color:#ae81ff">1</span>:] <span style="color:#f92672">+=</span> update <span style="color:#f92672">*</span> xi
+                self<span style="color:#f92672">.</span>w_[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">+=</span> update
+                errors <span style="color:#f92672">+=</span> int(update <span style="color:#f92672">!=</span> <span style="color:#ae81ff">0.0</span>)
+            self<span style="color:#f92672">.</span>errors_<span style="color:#f92672">.</span>append(errors)
+        <span style="color:#66d9ef">return</span> self
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">net_input</span>(self, X):
+        <span style="color:#66d9ef">return</span> np<span style="color:#f92672">.</span>dot(X, self<span style="color:#f92672">.</span>w_[<span style="color:#ae81ff">1</span>:] <span style="color:#f92672">+</span> self<span style="color:#f92672">.</span>w_[<span style="color:#ae81ff">0</span>])
+    
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">predict</span>(self, X):
+        <span style="color:#66d9ef">return</span> np<span style="color:#f92672">.</span>where(self<span style="color:#f92672">.</span>net_input(X) <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0.0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
+df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data&#39;</span>, header<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>)
+df<span style="color:#f92672">.</span>tail()
+</code></pre></div><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+<pre><code>.dataframe tbody tr th {
+    vertical-align: top;
+}
+
+.dataframe thead th {
+    text-align: right;
+}
+</code></pre>
+<p></style></p>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>145</th>
+      <td>6.7</td>
+      <td>3.0</td>
+      <td>5.2</td>
+      <td>2.3</td>
+      <td>Iris-virginica</td>
+    </tr>
+    <tr>
+      <th>146</th>
+      <td>6.3</td>
+      <td>2.5</td>
+      <td>5.0</td>
+      <td>1.9</td>
+      <td>Iris-virginica</td>
+    </tr>
+    <tr>
+      <th>147</th>
+      <td>6.5</td>
+      <td>3.0</td>
+      <td>5.2</td>
+      <td>2.0</td>
+      <td>Iris-virginica</td>
+    </tr>
+    <tr>
+      <th>148</th>
+      <td>6.2</td>
+      <td>3.4</td>
+      <td>5.4</td>
+      <td>2.3</td>
+      <td>Iris-virginica</td>
+    </tr>
+    <tr>
+      <th>149</th>
+      <td>5.9</td>
+      <td>3.0</td>
+      <td>5.1</td>
+      <td>1.8</td>
+      <td>Iris-virginica</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+
+y <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>iloc[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">100</span>, <span style="color:#ae81ff">4</span>]<span style="color:#f92672">.</span>values
+y <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>where(y <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;Iris-setosa&#39;</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">1</span>)
+
+X <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>iloc[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">100</span>, [<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">2</span>]]<span style="color:#f92672">.</span>values
+
+plt<span style="color:#f92672">.</span>scatter(X[:<span style="color:#ae81ff">50</span>, <span style="color:#ae81ff">0</span>], X[:<span style="color:#ae81ff">50</span>, <span style="color:#ae81ff">1</span>], color<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;red&#39;</span>, marker<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;o&#39;</span>, label<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;setosa&#39;</span>)
+plt<span style="color:#f92672">.</span>scatter(X[<span style="color:#ae81ff">50</span>:<span style="color:#ae81ff">100</span>, <span style="color:#ae81ff">0</span>], X[<span style="color:#ae81ff">50</span>:<span style="color:#ae81ff">100</span>, <span style="color:#ae81ff">1</span>], color<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;blue&#39;</span>, marker<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;x&#39;</span>, label<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;versicolor&#39;</span>)
+plt<span style="color:#f92672">.</span>xlabel(<span style="color:#e6db74">&#39;sepal length [cm]&#39;</span>)
+plt<span style="color:#f92672">.</span>ylabel(<span style="color:#e6db74">&#39;petal length [cm]&#39;</span>)
+plt<span style="color:#f92672">.</span>legend(loc<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;upper left&#39;</span>)
+plt<span style="color:#f92672">.</span>show()
+</code></pre></div><img src = 'https://sihan-son.github.io/images/book/gilbut/ml/3.png'>
+<p><code>Jupyter Notebook</code>을 이용해서 실습을 진행해 <code>Jupyter Notebook</code>에 대한 사용법도 익힐 수 있습니다.</p>
+<p>이렇게 역사를 훑고 난 뒤에는 많이 쓰고 있는 모델인 <code>logistic regression</code>, <code>SVM</code>, <code>결정 트릭</code>, <code>KNN</code> 등을 예제 코드와 함께 공부 할 수 있습니다. 코드만 있거나 설명만 있는 구조가 아니라 설명과 함께 전체 코드를 짜보면서 할 수 있습니다. 코드는 <code>GitHub</code>을 통해서 제공 되기 때문에 오타 등으로 인해서 다른 결과가 나오는 것을 쉽게 잡을 수 있고, 코드 분석을 책에 있는 것보다 편하게 할 수 있습니다.</p>
+<p>데이터 셋을 만들고 가공하는 법에 대한 것도 한 장을 크게 할애하고 있습니다. 머신러닝의 핵심 요소 중 하나인 차원 축소를 위한 알고리즘에 해당하는 <code>주성분 분석</code>, <code>PCA</code> 등의 알고리즘 설명이 충분히 있습니다.</p>
+<p>저수준 API까지 잘 설명이 되어 있습니다. <code>tensorflow 2.0</code>이 나오면서 변경 된 변경점들을 이전 버전과 비교 해주고 있기 때문에 인공지능에 입문하려고 고민하면서 책을 찾고 있다면 좋은 책입니다. 교과서라는 책 이름 처럼 차근차근 쌓아 나갈 수 있기 때문에 머신러닝 입문서를 찾고 있다면 추천할 만한 책입니다.</p>
+<hr>
+<p>본 리뷰는 길벗에서 책을 제공받아 작성된 리뷰입니다.</p>
+
+
+    
+
+<hr/>
+
+
+
+
+
+
+
+<div id="contact_buttons">
+    <footer>
+        
+        
+        <p>Made with <a href="https://github.com/64bitpandas/amethyst">Amethyst</a>, © 2023 jjerry-k</p>
+        <ul>
+            
+            <li><a href="https://v-ais.github.io">Home</a></li>
+            <li><a href="https://open.kakao.com/o/ghU9D1o">KakaoTalk</a></li><li><a href="https://discord.gg/XtayCRNJmK">Discord</a></li></ul>
+    </footer>
+</div>
+
+
+    
+  </article>
+ 
+      
+      
+      
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>V-AIS on </title>
+    <title></title>
     <link>https://v-ais.github.io/</link>
-    <description>Recent content in V-AIS on </description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://v-ais.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>개발 환경 구축</title>
+      <link>https://v-ais.github.io/2.Study/beginner/setting/</link>
+      <pubDate>Wed, 15 Nov 2023 23:52:20 +0900</pubDate>
+      
+      <guid>https://v-ais.github.io/2.Study/beginner/setting/</guid>
+      <description>개발 환경 구축에 대해 설명
+Python 개발 환경 #   Local, virtualenv, venv, poetry, pyenv, Anaconda, Docker  </description>
+    </item>
+    
+    <item>
       <title>그 외 자료</title>
-      <link>https://v-ais.github.io/2.Study/etc_recommend/</link>
+      <link>https://v-ais.github.io/2.Study/legacy/etc_recommend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://v-ais.github.io/2.Study/etc_recommend/</guid>
+      <guid>https://v-ais.github.io/2.Study/legacy/etc_recommend/</guid>
       <description>자료 모음집 #  ⭐️ : 추천도
 💀 : 난이도
 블로그 #    브랜치(Amang Kim 개인블로그) 링크
@@ -26,10 +36,10 @@
     
     <item>
       <title>동영상 강의 모음</title>
-      <link>https://v-ais.github.io/2.Study/media_recommend/</link>
+      <link>https://v-ais.github.io/2.Study/legacy/media_recommend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://v-ais.github.io/2.Study/media_recommend/</guid>
+      <guid>https://v-ais.github.io/2.Study/legacy/media_recommend/</guid>
       <description>자료 모음집 #  ⭐️ : 추천도
 💀 : 난이도
 동영상 강의 #  영어 #    CS231n 2016_링크, 2017_링크, 2017_한글 자막 ⭐️ ⭐️ ⭐️ 💀 💀
@@ -39,6 +49,17 @@ Computer Vision 분야에서 가장 중요하고 기초적인 스탠포드 대�
   Udacity Computer Vision(영어자막) ⭐️ 💀 💀 링크
 Computer Vision 개론 강의
 학부 4학년과 석사과정에서 수강할 수 있는 가장 기본적인 컴퓨터 비전 강의</description>
+    </item>
+    
+    <item>
+      <title>머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로</title>
+      <link>https://v-ais.github.io/3.Review/sihan/ml_book_rebiew_gilbut_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/3.Review/sihan/ml_book_rebiew_gilbut_1/</guid>
+      <description>원문 링크
+이 책은 다른 머신러닝 도서가 그렇듯이 인공지능이 어떤 역사를 가지고 발전했는지로 이야기를 시작합니다. 머신러닝에서 사용되는 전반인 용어와 표기법에 대한 정의로 글을 시작하기 때문에 입문서로 큰 장점이라고 생각됩니다. 입문서라고 나온 도서들 중에도 번역된 용어와 원어가 혼재되어 사용되어 인터넷에서 얻는 자료와 용어차이에서 오는 괴리감이 있는데 이 책은 그 부분을 해결 해주는 부분이 있습니다.
+파이썬에 익숙하지 않은 사용자를 위해서 패키지 관리를 위해 pip와 conda에 대한 사용법도 제시하고 있습니다. 하지만 파이썬 문법에 대한 설명이 없기 때문에 파이썬은 어느 정도 익힌 다음에 읽는 것을 추천합니다.</description>
     </item>
     
     <item>
@@ -59,10 +80,10 @@ Computer Vision 개론 강의
     
     <item>
       <title>서적 모음</title>
-      <link>https://v-ais.github.io/2.Study/book_recommend/</link>
+      <link>https://v-ais.github.io/2.Study/legacy/book_recommend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://v-ais.github.io/2.Study/book_recommend/</guid>
+      <guid>https://v-ais.github.io/2.Study/legacy/book_recommend/</guid>
       <description>자료 모음집 #  ⭐️ : 추천도
 💀 : 난이도
 책 #     책 이름 사진 추천도 &amp;amp; 난이도 한줄평     디지털 영상 처리 {: target=&amp;quot;_blank&amp;quot; } ⭐️⭐️ 💀💀💀 추후 작성   컴퓨터 비전 {: target=&amp;quot;_blank&amp;quot; } ⭐️⭐️ 💀💀 추후 작성   기계학습 {: target=&amp;quot;_blank&amp;quot; } ⭐️⭐️ 💀💀 추후 작성   밑바닥부터 시작하는 딥러닝 {: target=&amp;quot;_blank&amp;quot; } ⭐️⭐️⭐️ 💀 추후 작성   Do it!</description>
