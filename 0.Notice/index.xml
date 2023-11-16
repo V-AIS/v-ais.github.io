@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>0. 공지 사항 on </title>
     <link>https://v-ais.github.io/0.Notice/</link>
-    <description>Recent content on </description>
+    <description>Recent content in 0. 공지 사항 on </description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://v-ais.github.io/0.Notice/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>블로그에 있으면 하는 내용</title>
       <link>https://v-ais.github.io/0.Notice/contents_in_blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -22,7 +22,7 @@
     </item>
     
     <item>
-      <title></title>
+      <title>질문하는 방법</title>
       <link>https://v-ais.github.io/0.Notice/question/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -31,7 +31,7 @@
 정~~~말 오래 전에 한번 블로그에 있으면 하는 내용에 대해 투표를 한 적이 있습니다.
 다른건 일단&amp;hellip;..작성이 좀 오래 걸릴 것 같고&amp;hellip; 가장 마지막인 질문하는 법부터 적어보려고 합니다.
 이건 지극히 제 개인적인 질문하는 방법이니&amp;hellip;.참고만 해주세요!
-  </description>
+질문하기 이전에 #  당연히 내가 무엇을 알고 있고 무엇이 궁금한지 정리부터 합니다.</description>
     </item>
     
   </channel>
