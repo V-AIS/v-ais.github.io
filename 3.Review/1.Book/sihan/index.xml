@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sihan&#39;s Review on </title>
+    <link>https://v-ais.github.io/3.Review/1.Book/sihan/</link>
+    <description>Recent content in Sihan&#39;s Review on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://v-ais.github.io/3.Review/1.Book/sihan/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로</title>
+      <link>https://v-ais.github.io/3.Review/1.Book/sihan/ml_book_rebiew_gilbut_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/3.Review/1.Book/sihan/ml_book_rebiew_gilbut_1/</guid>
+      <description>원문 링크
+이 책은 다른 머신러닝 도서가 그렇듯이 인공지능이 어떤 역사를 가지고 발전했는지로 이야기를 시작합니다. 머신러닝에서 사용되는 전반인 용어와 표기법에 대한 정의로 글을 시작하기 때문에 입문서로 큰 장점이라고 생각됩니다. 입문서라고 나온 도서들 중에도 번역된 용어와 원어가 혼재되어 사용되어 인터넷에서 얻는 자료와 용어차이에서 오는 괴리감이 있는데 이 책은 그 부분을 해결 해주는 부분이 있습니다.
+파이썬에 익숙하지 않은 사용자를 위해서 패키지 관리를 위해 pip와 conda에 대한 사용법도 제시하고 있습니다. 하지만 파이썬 문법에 대한 설명이 없기 때문에 파이썬은 어느 정도 익힌 다음에 읽는 것을 추천합니다.</description>
+    </item>
+    
+  </channel>
+</rss>

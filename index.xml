@@ -16,6 +16,34 @@ Python 개발 환경 #   Local, virtualenv, venv, poetry, pyenv, Anaconda, Docke
     </item>
     
     <item>
+      <title>Image</title>
+      <link>https://v-ais.github.io/2.Study/common/dataset/image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/2.Study/common/dataset/image/</guid>
+      <description>Image dataset 목록입니다!</description>
+    </item>
+    
+    <item>
+      <title>Test paper</title>
+      <link>https://v-ais.github.io/3.Review/0.Paper/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/3.Review/0.Paper/test/</guid>
+      <description>테스트 페이지 입니다.
+Example #  {{&amp;lt;/* mermaid [class=&amp;#34;text-center&amp;#34;]*/&amp;gt;}} stateDiagram-v2 State1: The state with a note note right of State1 Important information! You can write notes. end note State1 --&amp;gt; State2 note left of State2 : This is the note to the left. {{&amp;lt;/* /mermaid */&amp;gt;}}    mermaid.initialize({ &#34;flowchart&#34;: { &#34;useMaxWidth&#34;:true }, &#34;theme&#34;: &#34;base&#34; } ) stateDiagram-v2 State1: The state with a note note right of State1 Important information!</description>
+    </item>
+    
+    <item>
+      <title>Text</title>
+      <link>https://v-ais.github.io/2.Study/common/dataset/Text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/2.Study/common/dataset/Text/</guid>
+      <description>Text dataset 목록입니다!</description>
+    </item>
+    
+    <item>
       <title>그 외 자료</title>
       <link>https://v-ais.github.io/2.Study/legacy/etc_recommend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -53,10 +81,10 @@ Computer Vision 개론 강의
     
     <item>
       <title>머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로</title>
-      <link>https://v-ais.github.io/3.Review/sihan/ml_book_rebiew_gilbut_1/</link>
+      <link>https://v-ais.github.io/3.Review/1.Book/sihan/ml_book_rebiew_gilbut_1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://v-ais.github.io/3.Review/sihan/ml_book_rebiew_gilbut_1/</guid>
+      <guid>https://v-ais.github.io/3.Review/1.Book/sihan/ml_book_rebiew_gilbut_1/</guid>
       <description>원문 링크
 이 책은 다른 머신러닝 도서가 그렇듯이 인공지능이 어떤 역사를 가지고 발전했는지로 이야기를 시작합니다. 머신러닝에서 사용되는 전반인 용어와 표기법에 대한 정의로 글을 시작하기 때문에 입문서로 큰 장점이라고 생각됩니다. 입문서라고 나온 도서들 중에도 번역된 용어와 원어가 혼재되어 사용되어 인터넷에서 얻는 자료와 용어차이에서 오는 괴리감이 있는데 이 책은 그 부분을 해결 해주는 부분이 있습니다.
 파이썬에 익숙하지 않은 사용자를 위해서 패키지 관리를 위해 pip와 conda에 대한 사용법도 제시하고 있습니다. 하지만 파이썬 문법에 대한 설명이 없기 때문에 파이썬은 어느 정도 익힌 다음에 읽는 것을 추천합니다.</description>
@@ -75,7 +103,7 @@ Computer Vision 개론 강의
 톡방 총 인원 825명 (종료일 기준)
 읽은 인원 270명
 투표 인원 163명
-   순위 내용 투표수     1 AI, 딥러닝 공부 순서 118   2 따라해볼만한 머신러닝 프로젝트 리스트 98   3 머신러닝, 딥러닝들 계보 (decision tree -&amp;gt; rf 와 같은..) 79   4 입문자를 위한 환경 구축 방법 73   5 분야별 paper flow 70   6 추천 세미나 달력 49   7 프레임워크 별 장단점 소개 41   8 머신러닝 데이터 목록 34   9 awesome 논문 리스트 26   10 면접 질문고찰 24   11 하드웨어 관련 내용 18   12 분야별 Awesome 모음집 18   13 질문하는 법 9    생각보다 힘든 일이 될 것 같군요&amp;hellip;</description>
+   순위 내용 투표수     1 AI, 딥러닝 공부 순서 118   2 따라해볼만한 머신러닝 프로젝트 리스트 98   3 머신러닝, 딥러닝들 계보 (decision tree -&amp;gt; rf 와 같은..) 79   4 **입문자를 위한 환경 구축 방법 -&amp;gt; 작업중.</description>
     </item>
     
     <item>
@@ -128,6 +156,16 @@ Computer Vision 개론 강의
 구체적이면 구체적일 수록 좋습니다.
 2. 정보 공유 #  질문에 대해 이해할 수 있도록 많은 정보를 제공하는 것은 빠른 답변, 양질의 답변을 얻는데 도움이 됩니다!
 현재 겪고 있는 상황, 스스로 해소하기 위해 검색한 내용, 자료등을 공유해주시면 좋습니다!</description>
+    </item>
+    
+    <item>
+      <title>프레임워크 별 장단점</title>
+      <link>https://v-ais.github.io/2.Study/beginner/compare_framework/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/2.Study/beginner/compare_framework/</guid>
+      <description>이 글은 드래프트 입니다.
+TensorFlow #  장점 #   성숙한 에코시스템, 강력한 지원과 다양한 도구, 라이브러리 제공 TensorFlow Serving, TensorFlow Lite 등을 통한 모델 배포 용이성 연구와 산업 분야 모두에 적합  단점 #   모델 설계 및 실험을 위한 유연성이 상대적으로 부족할 수 있음 처음 사용자에게는 기능과 API의 복잡성이 높을 수 있음   PyTorch #  장점 #   쉬운 문법과 직관적인 설계로 사용자들에게 인기 동적 그래프 형태로 자유로운 모델 디자인 및 실험 가능 활발한 커뮤니티와 개발자들의 지속적인 기여로 발전 중  단점 #   TensorFlow보다 기업에서의 지원이 상대적으로 부족할 수 있음   Keras #  장점 #   직관적이고 간단한 API로 빠른 프로토타이핑 가능 TensorFlow, Theano, CNTK 등 다양한 백엔드 지원.</description>
     </item>
     
   </channel>

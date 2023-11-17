@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0. 논문 리뷰 on </title>
+    <link>https://v-ais.github.io/3.Review/0.Paper/</link>
+    <description>Recent content in 0. 논문 리뷰 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://v-ais.github.io/3.Review/0.Paper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test paper</title>
+      <link>https://v-ais.github.io/3.Review/0.Paper/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/3.Review/0.Paper/test/</guid>
+      <description>테스트 페이지 입니다.
+Example #  {{&amp;lt;/* mermaid [class=&amp;#34;text-center&amp;#34;]*/&amp;gt;}} stateDiagram-v2 State1: The state with a note note right of State1 Important information! You can write notes. end note State1 --&amp;gt; State2 note left of State2 : This is the note to the left. {{&amp;lt;/* /mermaid */&amp;gt;}}    mermaid.initialize({ &#34;flowchart&#34;: { &#34;useMaxWidth&#34;:true }, &#34;theme&#34;: &#34;base&#34; } ) stateDiagram-v2 State1: The state with a note note right of State1 Important information!</description>
+    </item>
+    
+  </channel>
+</rss>

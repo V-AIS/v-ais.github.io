@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://v-ais.github.io/2.Study/beginner/</loc>
-    <lastmod>2023-11-16T00:39:49+09:00</lastmod>
-  </url><url>
-    <loc>https://v-ais.github.io/2.Study/legacy/</loc>
-    <lastmod>2023-11-16T00:39:49+09:00</lastmod>
-  </url><url>
-    <loc>https://v-ais.github.io/3.Review/sihan/</loc>
-    <lastmod>2023-11-16T00:39:49+09:00</lastmod>
-  </url><url>
-    <loc>https://v-ais.github.io/2.Study/beginner/setting/</loc>
-    <lastmod>2023-11-16T00:39:49+09:00</lastmod>
-  </url><url>
     <loc>https://v-ais.github.io/0.Notice/</loc>
     <lastmod>2023-11-17T01:29:53+09:00</lastmod>
   </url><url>
@@ -26,22 +14,50 @@
     <loc>https://v-ais.github.io/3.Review/</loc>
     <lastmod>2023-11-17T01:29:53+09:00</lastmod>
   </url><url>
+    <loc>https://v-ais.github.io/2.Study/common/</loc>
+  </url><url>
+    <loc>https://v-ais.github.io/3.Review/0.Paper/</loc>
+  </url><url>
+    <loc>https://v-ais.github.io/2.Study/beginner/</loc>
+    <lastmod>2023-11-16T00:39:49+09:00</lastmod>
+  </url><url>
+    <loc>https://v-ais.github.io/3.Review/1.Book/</loc>
+  </url><url>
+    <loc>https://v-ais.github.io/2.Study/legacy/</loc>
+    <lastmod>2023-11-16T00:39:49+09:00</lastmod>
+  </url><url>
+    <loc>https://v-ais.github.io/2.Study/common/dataset/</loc>
+  </url><url>
+    <loc>https://v-ais.github.io/3.Review/1.Book/sihan/</loc>
+  </url><url>
+    <loc>https://v-ais.github.io/2.Study/beginner/setting/</loc>
+    <lastmod>2023-11-16T00:39:49+09:00</lastmod>
+  </url><url>
     <loc>https://v-ais.github.io/tags/Book/</loc>
     <lastmod>2023-11-16T00:39:49+09:00</lastmod>
   </url><url>
     <loc>https://v-ais.github.io/categories/</loc>
   </url><url>
+    <loc>https://v-ais.github.io/tags/Deep-Learning-Framework/</loc>
+    <lastmod>2023-11-17T01:29:53+09:00</lastmod>
+  </url><url>
+    <loc>https://v-ais.github.io/2.Study/common/dataset/image/</loc>
+  </url><url>
     <loc>https://v-ais.github.io/tags/Media/</loc>
     <lastmod>2023-11-16T00:39:49+09:00</lastmod>
   </url><url>
     <loc>https://v-ais.github.io/tags/Notice/</loc>
-    <lastmod>2023-11-17T01:29:53+09:00</lastmod>
+    <lastmod>2023-11-17T01:54:50+09:00</lastmod>
   </url><url>
     <loc>https://v-ais.github.io/tags/Study/</loc>
     <lastmod>2023-11-16T00:39:49+09:00</lastmod>
   </url><url>
     <loc>https://v-ais.github.io/tags/</loc>
-    <lastmod>2023-11-17T01:29:53+09:00</lastmod>
+    <lastmod>2023-11-17T01:54:50+09:00</lastmod>
+  </url><url>
+    <loc>https://v-ais.github.io/3.Review/0.Paper/test/</loc>
+  </url><url>
+    <loc>https://v-ais.github.io/2.Study/common/dataset/Text/</loc>
   </url><url>
     <loc>https://v-ais.github.io/</loc>
     <lastmod>2023-11-17T01:29:53+09:00</lastmod>
@@ -52,8 +68,7 @@
     <loc>https://v-ais.github.io/2.Study/legacy/media_recommend/</loc>
     <lastmod>2023-11-16T00:39:49+09:00</lastmod>
   </url><url>
-    <loc>https://v-ais.github.io/3.Review/sihan/ml_book_rebiew_gilbut_1/</loc>
-    <lastmod>2023-11-16T00:39:49+09:00</lastmod>
+    <loc>https://v-ais.github.io/3.Review/1.Book/sihan/ml_book_rebiew_gilbut_1/</loc>
   </url><url>
     <loc>https://v-ais.github.io/0.Notice/contents_in_blog/</loc>
     <lastmod>2023-11-17T01:29:53+09:00</lastmod>
@@ -71,6 +86,9 @@
     <lastmod>2023-11-17T01:29:53+09:00</lastmod>
   </url><url>
     <loc>https://v-ais.github.io/0.Notice/question/</loc>
+    <lastmod>2023-11-17T01:54:50+09:00</lastmod>
+  </url><url>
+    <loc>https://v-ais.github.io/2.Study/beginner/compare_framework/</loc>
     <lastmod>2023-11-17T01:29:53+09:00</lastmod>
   </url>
 </urlset>

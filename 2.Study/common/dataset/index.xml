@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dataset 모음 on </title>
+    <link>https://v-ais.github.io/2.Study/common/dataset/</link>
+    <description>Recent content in Dataset 모음 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://v-ais.github.io/2.Study/common/dataset/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Image</title>
+      <link>https://v-ais.github.io/2.Study/common/dataset/image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/2.Study/common/dataset/image/</guid>
+      <description>Image dataset 목록입니다!</description>
+    </item>
+    
+    <item>
+      <title>Text</title>
+      <link>https://v-ais.github.io/2.Study/common/dataset/Text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/2.Study/common/dataset/Text/</guid>
+      <description>Text dataset 목록입니다!</description>
+    </item>
+    
+  </channel>
+</rss>

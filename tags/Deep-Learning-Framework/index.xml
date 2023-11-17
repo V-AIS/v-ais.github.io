@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>1. Beginner on </title>
-    <link>https://v-ais.github.io/2.Study/beginner/</link>
-    <description>Recent content in 1. Beginner on </description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://v-ais.github.io/2.Study/beginner/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>개발 환경 구축</title>
-      <link>https://v-ais.github.io/2.Study/beginner/setting/</link>
-      <pubDate>Wed, 15 Nov 2023 23:52:20 +0900</pubDate>
-      
-      <guid>https://v-ais.github.io/2.Study/beginner/setting/</guid>
-      <description>개발 환경 구축에 대해 설명
-Python 개발 환경 #   Local, virtualenv, venv, poetry, pyenv, Anaconda, Docker  </description>
-    </item>
-    
+    <title>Deep Learning Framework on </title>
+    <link>https://v-ais.github.io/tags/Deep-Learning-Framework/</link>
+    <description>Recent content in Deep Learning Framework on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://v-ais.github.io/tags/Deep-Learning-Framework/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>프레임워크 별 장단점</title>
       <link>https://v-ais.github.io/2.Study/beginner/compare_framework/</link>
