@@ -9,7 +9,7 @@ chmod &#43;x Anaconda3-latest-Linux-x86_64.sh 아나콘다 설치  이제 아나
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://v-ais.github.io/2.Study/beginner/setting/" /><meta property="article:section" content="2.Study" />
 
-<meta property="article:modified_time" content="2023-11-16T00:39:49+09:00" /><meta property="og:site_name" content="📓 V-AIS" />
+<meta property="article:modified_time" content="2023-11-18T00:30:49+09:00" /><meta property="og:site_name" content="📓 V-AIS" />
 
 <title>개발 환경 구축 | 📓 V-AIS</title>
 <link rel="manifest" href="/manifest.json">
@@ -157,7 +157,7 @@ chmod &#43;x Anaconda3-latest-Linux-x86_64.sh 아나콘다 설치  이제 아나
             index: data.index,
             links: data.links,
           })),
-        fetch("https:\/\/v-ais.github.io\/indices\/contentIndex.90e984cf23cb911aa768d2e85979f510.min.json")
+        fetch("https:\/\/v-ais.github.io\/indices\/contentIndex.2e59bb55a784fd8261ab948235fe2a3f.min.json")
           .then(data => data.json()),
       ])
       .then(([{index, links}, content]) => ({
@@ -949,8 +949,23 @@ chmod &#43;x Anaconda3-latest-Linux-x86_64.sh 아나콘다 설치  이제 아나
       
   
   <div class="book-comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
 
-</div>
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'https-v-ais-github-io';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div>
   
  
 
