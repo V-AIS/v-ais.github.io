@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>팁 모음 on </title>
+    <link>https://v-ais.github.io/2.Study/common/tips/</link>
+    <description>Recent content in 팁 모음 on </description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://v-ais.github.io/2.Study/common/tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>우분투</title>
+      <link>https://v-ais.github.io/2.Study/common/tips/ubuntu_tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/2.Study/common/tips/ubuntu_tips/</guid>
+      <description>우분투 사용과 관련된 팁!
+간단 명령어 #  adduser [user name] usermod -a -G [group name] [user name] -a : user를 group의 사용자로 추가 -G : user의 secondary group으로 추가 chmod -R xxx [directory or file name] -R : 하위 폴더, 파일까지 모드 변경 xxx : 0~7 값으로 모드 변경 chown -R [user name] [directory or file name] chgrp -R [group name] [directory or file name] du -h - Disk usage - 사용자 레벨의 프로그램으로 meta data 같은 것들을 반영시키지 못함.</description>
+    </item>
+    
+    <item>
+      <title>파이썬</title>
+      <link>https://v-ais.github.io/2.Study/common/tips/python_tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/2.Study/common/tips/python_tips/</guid>
+      <description>파이썬 사용과 관련된 팁!</description>
+    </item>
+    
+  </channel>
+</rss>
