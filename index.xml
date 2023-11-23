@@ -49,10 +49,13 @@ Example #  {{&amp;lt;/* mermaid [class=&amp;#34;text-center&amp;#34;]*/&amp;gt;}
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://v-ais.github.io/2.Study/beginner/setting/</guid>
-      <description>작성중입니다!
-Python 개발 환경 #   Local, virtualenv, Anaconda, Docker   Local ↕  Local     virtualenv ↕      Anaconda ↕   아나콘다 다운로드  먼저, 아나콘다를 다운로드하기 위해 아나콘다 공식 웹사이트에서 우분투용 설치 파일을 다운로드합니다.
-wget https://repo.anaconda.com/archive/Anaconda3-latest-Linux-x86_64.sh 다운로드한 파일 실행 권한 부여  다운로드한 설치 파일에 실행 권한을 부여합니다.
-chmod +x Anaconda3-latest-Linux-x86_64.sh 아나콘다 설치  이제 아나콘다 설치 파일을 실행하여 아나콘다를 설치합니다.</description>
+      <description>Python 개발 환경 #  Local #  Detail  사용하는 PC에 Python을 설치하는 가장 기본적인 방법입니다!  Ubuntu의 경우 #  Ubuntu를 사용하실 경우 일반적으로 Python3.X가 설치되어 있습니다!
+터미널에서 python3를 입력하여 확인해보세요!
+Window의 경우 #   https://www.python.org/ 여기에서 원하시는 버전의 Python을 다운받고 설치합니다!
+사실&amp;hellip;.Local Python을 쓰는 일은 거의 없을 겁니다&amp;hellip;
+  여기서부턴 용도에 따라 독립된 가상 환경을 만들 수 있는 방법들입니다!
+ Q: 왜&amp;hellip;.독립된 환경이 필요한가요&amp;hellip;?
+A: 만약 개발 A에선 버전 1의 라이브러리를 필요로 하고, 개발 B에선 버전 2의 라이브러리를 필요로 한다면, 어떻게 이 두 라이브러리를 관리할 수 있을까요?</description>
     </item>
     
     <item>

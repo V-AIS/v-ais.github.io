@@ -2,10 +2,13 @@
 <html lang="en" dir="ltr">
 <head>
   <meta property="og:title" content="개발 환경 구축" />
-<meta property="og:description" content="작성중입니다!
-Python 개발 환경 #   Local, virtualenv, Anaconda, Docker   Local ↕  Local     virtualenv ↕      Anaconda ↕   아나콘다 다운로드  먼저, 아나콘다를 다운로드하기 위해 아나콘다 공식 웹사이트에서 우분투용 설치 파일을 다운로드합니다.
-wget https://repo.anaconda.com/archive/Anaconda3-latest-Linux-x86_64.sh 다운로드한 파일 실행 권한 부여  다운로드한 설치 파일에 실행 권한을 부여합니다.
-chmod &#43;x Anaconda3-latest-Linux-x86_64.sh 아나콘다 설치  이제 아나콘다 설치 파일을 실행하여 아나콘다를 설치합니다." />
+<meta property="og:description" content="Python 개발 환경 #  Local #  Detail  사용하는 PC에 Python을 설치하는 가장 기본적인 방법입니다!  Ubuntu의 경우 #  Ubuntu를 사용하실 경우 일반적으로 Python3.X가 설치되어 있습니다!
+터미널에서 python3를 입력하여 확인해보세요!
+Window의 경우 #   https://www.python.org/ 여기에서 원하시는 버전의 Python을 다운받고 설치합니다!
+사실&hellip;.Local Python을 쓰는 일은 거의 없을 겁니다&hellip;
+  여기서부턴 용도에 따라 독립된 가상 환경을 만들 수 있는 방법들입니다!
+ Q: 왜&hellip;.독립된 환경이 필요한가요&hellip;?
+A: 만약 개발 A에선 버전 1의 라이브러리를 필요로 하고, 개발 B에선 버전 2의 라이브러리를 필요로 한다면, 어떻게 이 두 라이브러리를 관리할 수 있을까요?" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://v-ais.github.io/2.Study/beginner/setting/" /><meta property="article:section" content="2.Study" />
 
@@ -42,10 +45,13 @@ https://github.com/alex-shpak/hugo-book
 <meta charset="UTF-8" />
 <meta
   name="description"
-  content="작성중입니다!
-Python 개발 환경 #   Local, virtualenv, Anaconda, Docker   Local ↕  Local     virtualenv ↕      Anaconda ↕   아나콘다 다운로드  먼저, 아나콘다를 다운로드하기 위해 아나콘다 공식 웹사이트에서 우분투용 설치 파일을 다운로드합니다.
-wget https://repo.anaconda.com/archive/Anaconda3-latest-Linux-x86_64.sh 다운로드한 파일 실행 권한 부여  다운로드한 설치 파일에 실행 권한을 부여합니다.
-chmod &#43;x Anaconda3-latest-Linux-x86_64.sh 아나콘다 설치  이제 아나콘다 설치 파일을 실행하여 아나콘다를 설치합니다."
+  content="Python 개발 환경 #  Local #  Detail  사용하는 PC에 Python을 설치하는 가장 기본적인 방법입니다!  Ubuntu의 경우 #  Ubuntu를 사용하실 경우 일반적으로 Python3.X가 설치되어 있습니다!
+터미널에서 python3를 입력하여 확인해보세요!
+Window의 경우 #   https://www.python.org/ 여기에서 원하시는 버전의 Python을 다운받고 설치합니다!
+사실&hellip;.Local Python을 쓰는 일은 거의 없을 겁니다&hellip;
+  여기서부턴 용도에 따라 독립된 가상 환경을 만들 수 있는 방법들입니다!
+ Q: 왜&hellip;.독립된 환경이 필요한가요&hellip;?
+A: 만약 개발 A에선 버전 1의 라이브러리를 필요로 하고, 개발 B에선 버전 2의 라이브러리를 필요로 한다면, 어떻게 이 두 라이브러리를 관리할 수 있을까요?"
 />
 <title>
   개발 환경 구축
@@ -157,7 +163,7 @@ chmod &#43;x Anaconda3-latest-Linux-x86_64.sh 아나콘다 설치  이제 아나
             index: data.index,
             links: data.links,
           })),
-        fetch("https:\/\/v-ais.github.io\/indices\/contentIndex.a76f50bed1ec066cefba8767894f04bd.min.json")
+        fetch("https:\/\/v-ais.github.io\/indices\/contentIndex.4e8907908987e8f68be2c07647d925da.min.json")
           .then(data => data.json()),
       ])
       .then(([{index, links}, content]) => ({
@@ -934,110 +940,141 @@ chmod &#43;x Anaconda3-latest-Linux-x86_64.sh 아나콘다 설치  이제 아나
   
   
   
+    
+    
+      
+      
+    
+    
   
   
+  
 
 
 
 
 
 
-<p>작성중입니다!</p>
 <h1 id="python-개발-환경">
   Python 개발 환경
   <a class="anchor" href="#python-%ea%b0%9c%eb%b0%9c-%ed%99%98%ea%b2%bd">#</a>
 </h1>
-<ul>
-<li>Local, virtualenv, Anaconda, Docker</li>
+<h2 id="local">
+  Local
+  <a class="anchor" href="#local">#</a>
+</h2>
+<details ><summary>Detail</summary>
+  <div class="markdown-inner">
+    <ul>
+<li>사용하는 PC에 Python을 설치하는 가장 기본적인 방법입니다!</li>
 </ul>
+<h3 id="ubuntu의-경우">
+  Ubuntu의 경우
+  <a class="anchor" href="#ubuntu%ec%9d%98-%ea%b2%bd%ec%9a%b0">#</a>
+</h3>
+<p>Ubuntu를 사용하실 경우 일반적으로 Python3.X가 설치되어 있습니다!<br>
+터미널에서 <code>python3</code>를 입력하여 확인해보세요!</p>
+<h3 id="window의-경우">
+  Window의 경우
+  <a class="anchor" href="#window%ec%9d%98-%ea%b2%bd%ec%9a%b0">#</a>
+</h3>
+<p>
+<a href="https://www.python.org/" rel="noopener">https://www.python.org/</a> 여기에서 원하시는 버전의 Python을 다운받고 설치합니다!</p>
+<p><strong>사실&hellip;.Local Python을 쓰는 일은 거의 없을 겁니다&hellip;</strong></p>
 
-<div class="book-expand">
-  <label>
-    <div class="book-expand-head flex justify-between">
-      <span>Local</span>
-      <span>↕</span>
-    </div>
-    <input type="checkbox" class="hidden" />
-    <div class="book-expand-content markdown-inner">
-      <a href="#local"><h2 id="local"><span class="hanchor" ariaLabel="Anchor"># </span>Local</h2></a>
+  </div>
+</details>
 
-    </div>
-  </label>
-</div>
-
-
-<div class="book-expand">
-  <label>
-    <div class="book-expand-head flex justify-between">
-      <span>virtualenv</span>
-      <span>↕</span>
-    </div>
-    <input type="checkbox" class="hidden" />
-    <div class="book-expand-content markdown-inner">
-      
-    </div>
-  </label>
-</div>
-
-
-<div class="book-expand">
-  <label>
-    <div class="book-expand-head flex justify-between">
-      <span>Anaconda</span>
-      <span>↕</span>
-    </div>
-    <input type="checkbox" class="hidden" />
-    <div class="book-expand-content markdown-inner">
-      <ol>
-<li>아나콘다 다운로드</li>
+<p>여기서부턴 용도에 따라 독립된 가상 환경을 만들 수 있는 방법들입니다!</p>
+<blockquote>
+<p>Q: 왜&hellip;.독립된 환경이 필요한가요&hellip;?<br>
+A: 만약 개발 A에선 버전 1의 라이브러리를 필요로 하고, 개발 B에선 버전 2의 라이브러리를 필요로 한다면, 어떻게 이 두 라이브러리를 관리할 수 있을까요?
+Local Python은 하나인데&hellip;.어떻게 두개의 버전을 설치할 수 있을까요?
+이를 해결하기 위한 것이 <strong>독립된 가상 환경 만들기</strong> 입니다.</p>
+</blockquote>
+<h2 id="virtualenv">
+  virtualenv
+  <a class="anchor" href="#virtualenv">#</a>
+</h2>
+<details ><summary>Detail</summary>
+  <div class="markdown-inner">
+    <ol>
+<li>
+<p>Python 설치<br>
+우선 Python을 설치해주세요! (되도록이면 Python 3.X 로&hellip;.)</p>
+</li>
+<li>
+<p>virtualenv 설치</p>
+</li>
 </ol>
-<p>먼저, 아나콘다를 다운로드하기 위해 아나콘다 공식 웹사이트에서 우분투용 설치 파일을 다운로드합니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">python3 -m pip install --user -U virtualenv
+</code></pre></div><ol start="3">
+<li>가상환경 생성</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># 명령어를 실행하면 현재 디렉토리 하위에 `myenv`라는 디렉토리가 생깁니다!</span>
+virtualenv myenv
+</code></pre></div><ol start="4">
+<li>가상환경 실행</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># 상대 경로를 사용할 수도 있고 절대 경로를 사용할 수도 있습니다!</span>
+source myenv/bin/activate
+</code></pre></div><p>가상환경을 활성화한 후, pip install &lt;package_name&gt;과 같은 명령어를 사용하여 패키지를 설치하시면 됩니다.</p>
+
+  </div>
+</details>
+
+<h2 id="anaconda">
+  Anaconda
+  <a class="anchor" href="#anaconda">#</a>
+</h2>
+<details ><summary>Detail</summary>
+  <div class="markdown-inner">
+    <ol>
+<li>아나콘다 다운로드<br>
+먼저, 아나콘다를 다운로드하기 위해 아나콘다 공식 웹사이트에서 우분투용 설치 파일을 다운로드합니다.</li>
+</ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wget https://repo.anaconda.com/archive/Anaconda3-latest-Linux-x86_64.sh
 </code></pre></div><ol start="2">
-<li>다운로드한 파일 실행 권한 부여</li>
+<li>다운로드한 파일 실행 권한 부여<br>
+다운로드한 설치 파일에 실행 권한을 부여합니다.</li>
 </ol>
-<p>다운로드한 설치 파일에 실행 권한을 부여합니다.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">chmod +x Anaconda3-latest-Linux-x86_64.sh
 </code></pre></div><ol start="3">
-<li>아나콘다 설치</li>
+<li>아나콘다 설치<br>
+이제 아나콘다 설치 파일을 실행하여 아나콘다를 설치합니다.</li>
 </ol>
-<p>이제 아나콘다 설치 파일을 실행하여 아나콘다를 설치합니다.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">./Anaconda3-latest-Linux-x86_64.sh
 </code></pre></div><p>설치 과정 중에는 라이센스 동의, 설치 경로 지정 등의 프롬프트가 표시됩니다. 지시에 따라 설치를 진행합니다.</p>
 <ol start="4">
-<li>아나콘다 환경 설정</li>
+<li>아나콘다 환경 설정<br>
+설치가 완료되면 아나콘다가 시스템 경로에 추가됩니다. 하지만 새로운 터미널 세션을 열거나 아래 명령어를 입력하여 변경 사항을 적용합니다.</li>
 </ol>
-<p>설치가 완료되면 아나콘다가 시스템 경로에 추가됩니다. 하지만 새로운 터미널 세션을 열거나 아래 명령어를 입력하여 변경 사항을 적용합니다.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source ~/.bashrc
 </code></pre></div><ol start="5">
-<li>가상환경 생성 및 관리</li>
+<li>가상환경 생성</li>
 </ol>
-<p>가상환경을 생성하고 관리하기 위해 conda 명령어를 사용합니다.</p>
-<p>새로운 가상환경 생성:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">conda create --name myenv
-</code></pre></div><p>여기서 myenv는 새로운 가상환경의 이름입니다. 이 이름을 원하는 대로 변경할 수 있습니다.</p>
-<p>가상환경 활성화:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># myenv 는 마음대로 정하셔도 됩니다.</span>
+conda create --name myenv
+</code></pre></div><ol start="6">
+<li>가상환경 실행</li>
+</ol>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">conda activate myenv
-</code></pre></div><p>필요한 패키지 설치 등의 작업을 위해 가상환경을 활성화한 후, conda install &lt;package_name&gt;과 같은 명령어를 사용합니다.</p>
+</code></pre></div><p>가상환경을 활성화한 후, conda install &lt;package_name&gt;, pip install &lt;package_name&gt;과 같은 명령어를 사용하여 패키지를 설치하시면 됩니다.</p>
 
-    </div>
-  </label>
-</div>
+  </div>
+</details>
 
+<h2 id="docker">
+  Docker
+  <a class="anchor" href="#docker">#</a>
+</h2>
+<details ><summary>Detail</summary>
+  <div class="markdown-inner">
+    여기 적기엔 너무 &hellip;. 하드할 것 같습니다. 이건 나중에&hellip;. 공부하시는게 좋을 것 같아요&hellip;
+  </div>
+</details>
 
-<div class="book-expand">
-  <label>
-    <div class="book-expand-head flex justify-between">
-      <span>Docker</span>
-      <span>↕</span>
-    </div>
-    <input type="checkbox" class="hidden" />
-    <div class="book-expand-content markdown-inner">
-      이건 나중에&hellip;. 공부하시는게 좋을 것 같아요&hellip;
-    </div>
-  </label>
-</div>
-
+<p><strong>추가로 궁금한 사항은 댓글로 남겨주세요!</strong></p>
 
 
     
@@ -1102,7 +1139,14 @@ chmod &#43;x Anaconda3-latest-Linux-x86_64.sh 아나콘다 설치  이제 아나
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#python-개발-환경">Python 개발 환경</a></li>
+    <li><a href="#python-개발-환경">Python 개발 환경</a>
+      <ul>
+        <li><a href="#local">Local</a></li>
+        <li><a href="#virtualenv">virtualenv</a></li>
+        <li><a href="#anaconda">Anaconda</a></li>
+        <li><a href="#docker">Docker</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
