@@ -5,5 +5,15 @@
     <link>https://v-ais.github.io/2.Study/common/</link>
     <description>Recent content in 0. For everyone on </description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://v-ais.github.io/2.Study/common/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Frequently Asked Questions</title>
+      <link>https://v-ais.github.io/2.Study/common/FAQ/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://v-ais.github.io/2.Study/common/FAQ/</guid>
+      <description>자주 듣는 질문 모음입니다!
+PyTorch vs TensorFlow 대중적으론 PyTorch를 많이 씁니다만&amp;hellip;..취업 후에는 회사에서 쓰는거 쓰시면 됩니다.   </description>
+    </item>
+    
   </channel>
 </rss>
