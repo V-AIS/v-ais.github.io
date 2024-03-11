@@ -6,14 +6,13 @@
     <description>Recent content in V-AIS on </description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://v-ais.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Frequently Asked Questions</title>
+      <title>FAQ</title>
       <link>https://v-ais.github.io/2.Study/common/FAQ/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://v-ais.github.io/2.Study/common/FAQ/</guid>
       <description>자주 듣는 질문 모음입니다!
-Windows와 Linux 중 뭘 써야하나요? 요즘은 Windows에서도 WSL이 잘 되어있어서 어떤걸 사용하셔도 큰 문제 없습니다. 그래도 전 Linux 사용하겠습니다...    nvidia-smi에 CUDA 버전이 나와요! CUDA 설치한거 맞나요?? 아닙니다. `nvidia-smi`에 나오는 `CUDA Version`은 현재 드라이버와 호환되는 최신 버전의 CUDA 정보입니다. CUDA는 `nvcc --version`으로 확인하셔야합니다.    Computer Vision 공부를 하려고 하는데요! 어떤 책을 보면 좋을까요?  서적 모음
-`2.공부자료/N.Legacy/서적 모음`게시글에서 디지털 영상처리, 컴퓨터 비전 추천드립니다.</description>
+Windows와 Linux 중 뭘 써야하나요? 요즘은 Windows에서도 WSL이 잘 되어있어서 어떤걸 사용하셔도 큰 문제 없습니다. 그래도 전 Linux 사용하겠습니다...    nvidia-smi에 CUDA 버전이 나와요! CUDA 설치한거 맞나요?? 아닙니다. `nvidia-smi`에 나오는 `CUDA Version`은 현재 드라이버와 호환되는 최신 버전의 CUDA 정보입니다. CUDA는 `nvcc --version`으로 확인하셔야합니다.    CUDA를 설치했는데 nvcc --version을 해도 명령어가 동작을 안해요! 설치를 잘못하셨다는 의미입니다. 혹시나 다음과 같은 작업을 잊으신건 아닐까요? `export PATH={cuda bin 경로}:$PATH` `export LD_LIBRARY_PATH={cuda lib64 경로}:$LD_LIBRARY_PATH` ~/.</description>
     </item>
     
     <item>

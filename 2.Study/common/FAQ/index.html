@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <meta property="og:title" content="Frequently Asked Questions" />
+  <meta property="og:title" content="FAQ" />
 <meta property="og:description" content="자주 듣는 질문 모음입니다!
-Windows와 Linux 중 뭘 써야하나요? 요즘은 Windows에서도 WSL이 잘 되어있어서 어떤걸 사용하셔도 큰 문제 없습니다. 그래도 전 Linux 사용하겠습니다...    nvidia-smi에 CUDA 버전이 나와요! CUDA 설치한거 맞나요?? 아닙니다. `nvidia-smi`에 나오는 `CUDA Version`은 현재 드라이버와 호환되는 최신 버전의 CUDA 정보입니다. CUDA는 `nvcc --version`으로 확인하셔야합니다.    Computer Vision 공부를 하려고 하는데요! 어떤 책을 보면 좋을까요?  서적 모음
-`2.공부자료/N.Legacy/서적 모음`게시글에서 디지털 영상처리, 컴퓨터 비전 추천드립니다." />
+Windows와 Linux 중 뭘 써야하나요? 요즘은 Windows에서도 WSL이 잘 되어있어서 어떤걸 사용하셔도 큰 문제 없습니다. 그래도 전 Linux 사용하겠습니다...    nvidia-smi에 CUDA 버전이 나와요! CUDA 설치한거 맞나요?? 아닙니다. `nvidia-smi`에 나오는 `CUDA Version`은 현재 드라이버와 호환되는 최신 버전의 CUDA 정보입니다. CUDA는 `nvcc --version`으로 확인하셔야합니다.    CUDA를 설치했는데 nvcc --version을 해도 명령어가 동작을 안해요! 설치를 잘못하셨다는 의미입니다. 혹시나 다음과 같은 작업을 잊으신건 아닐까요? `export PATH={cuda bin 경로}:$PATH` `export LD_LIBRARY_PATH={cuda lib64 경로}:$LD_LIBRARY_PATH` ~/." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://v-ais.github.io/2.Study/common/FAQ/" /><meta property="article:section" content="2.Study" />
 
 <meta property="article:modified_time" content="2024-03-12T00:40:38+09:00" /><meta property="og:site_name" content="📓 V-AIS" />
 
-<title>Frequently Asked Questions | 📓 V-AIS</title>
+<title>FAQ | 📓 V-AIS</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.45ec1f6261e17c6488824ac77b6b8a0c11eef38eaed587cfecad4b284f57ee79.css" integrity="sha256-RewfYmHhfGSIgkrHe2uKDBHu846u1YfP7K1LKE9X7nk=" crossorigin="anonymous">
@@ -42,11 +41,10 @@ https://github.com/alex-shpak/hugo-book
 <meta
   name="description"
   content="자주 듣는 질문 모음입니다!
-Windows와 Linux 중 뭘 써야하나요? 요즘은 Windows에서도 WSL이 잘 되어있어서 어떤걸 사용하셔도 큰 문제 없습니다. 그래도 전 Linux 사용하겠습니다...    nvidia-smi에 CUDA 버전이 나와요! CUDA 설치한거 맞나요?? 아닙니다. `nvidia-smi`에 나오는 `CUDA Version`은 현재 드라이버와 호환되는 최신 버전의 CUDA 정보입니다. CUDA는 `nvcc --version`으로 확인하셔야합니다.    Computer Vision 공부를 하려고 하는데요! 어떤 책을 보면 좋을까요?  서적 모음
-`2.공부자료/N.Legacy/서적 모음`게시글에서 디지털 영상처리, 컴퓨터 비전 추천드립니다."
+Windows와 Linux 중 뭘 써야하나요? 요즘은 Windows에서도 WSL이 잘 되어있어서 어떤걸 사용하셔도 큰 문제 없습니다. 그래도 전 Linux 사용하겠습니다...    nvidia-smi에 CUDA 버전이 나와요! CUDA 설치한거 맞나요?? 아닙니다. `nvidia-smi`에 나오는 `CUDA Version`은 현재 드라이버와 호환되는 최신 버전의 CUDA 정보입니다. CUDA는 `nvcc --version`으로 확인하셔야합니다.    CUDA를 설치했는데 nvcc --version을 해도 명령어가 동작을 안해요! 설치를 잘못하셨다는 의미입니다. 혹시나 다음과 같은 작업을 잊으신건 아닐까요? `export PATH={cuda bin 경로}:$PATH` `export LD_LIBRARY_PATH={cuda lib64 경로}:$LD_LIBRARY_PATH` ~/."
 />
 <title>
-  Frequently Asked Questions
+  FAQ
 </title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -467,7 +465,7 @@ Windows와 Linux 중 뭘 써야하나요? 요즘은 Windows에서도 WSL이 잘 
   
 
   
-    <a href="/2.Study/common/FAQ/" class="active">Frequently Asked Questions</a>
+    <a href="/2.Study/common/FAQ/" class="active">FAQ</a>
   
 
         </li>
@@ -928,13 +926,16 @@ Windows와 Linux 중 뭘 써야하나요? 요즘은 Windows에서도 WSL이 잘 
       
       
   <article class="markdown">
-    <h1 class="title">Frequently Asked Questions</h1>
+    <h1 class="title">FAQ</h1>
     
 
 
 
 
 
+
+  
+  
 
 
 
@@ -984,10 +985,27 @@ CUDA는 <span style="color:#e6db74">`nvcc --version`</span>으로 확인하셔�
   </div>
 </details>
 
+<details ><summary>CUDA를 설치했는데 <code>nvcc --version</code>을 해도 명령어가 동작을 안해요!</summary>
+  <div class="markdown-inner">
+    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">설치를 잘못하셨다는 의미입니다.  
+혹시나 다음과 같은 작업을 잊으신건 아닐까요? 
+<span style="color:#e6db74">`export PATH={cuda bin 경로}:$PATH`</span>  
+<span style="color:#e6db74">`export LD_LIBRARY_PATH={cuda lib64 경로}:$LD_LIBRARY_PATH`</span>  
+~/.bashrc 에 위 내용이 적혀있는지 확인해보세요!
+</code></pre></div>
+  </div>
+</details>
+
 <details ><summary>Computer Vision 공부를 하려고 하는데요! 어떤 책을 보면 좋을까요?</summary>
   <div class="markdown-inner">
     <p>
-<a href="http:/../../2.Study/legacy/book_recommend/" rel="noopener">서적 모음</a></p>
+
+
+
+
+
+<a href="/2.Study/legacy/book_recommend/"  rel="noopener"
+  class="internal-link" data-src="/2.Study/legacy/book_recommend/">서적 모음</a></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#e6db74">`2.공부자료/N.Legacy/서적 모음`</span>게시글에서 디지털 영상처리, 컴퓨터 비전 추천드립니다.!
 </code></pre></div>
   </div>
