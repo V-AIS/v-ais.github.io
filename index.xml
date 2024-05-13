@@ -12,7 +12,7 @@
       
       <guid>https://v-ais.github.io/2.Study/common/FAQ/</guid>
       <description>자주 듣는 질문 모음입니다!
-Windows와 Linux 중 뭘 써야하나요? 요즘은 Windows에서도 WSL이 잘 되어있어서 어떤걸 사용하셔도 큰 문제 없습니다. 그래도 전 Linux 사용하겠습니다...    nvidia-smi에 CUDA 버전이 나와요! CUDA 설치한거 맞나요?? 아닙니다. `nvidia-smi`에 나오는 `CUDA Version`은 현재 드라이버와 호환되는 최신 버전의 CUDA 정보입니다. CUDA는 `nvcc --version`으로 확인하셔야합니다.    CUDA를 설치했는데 nvcc --version을 해도 명령어가 동작을 안해요! 설치를 잘못하셨다는 의미입니다. 혹시나 다음과 같은 작업을 잊으신건 아닐까요? `export PATH={cuda bin 경로}:$PATH` `export LD_LIBRARY_PATH={cuda lib64 경로}:$LD_LIBRARY_PATH` ~/.</description>
+환경 설정 관련 #  Windows와 Linux 중 뭘 써야하나요? 요즘은 Windows에서도 WSL이 잘 되어있어서 어떤걸 사용하셔도 큰 문제 없습니다. 그래도 전 Linux 사용하겠습니다...    nvidia-smi에 CUDA 버전이 나와요! CUDA 설치한거 맞나요?? 아닙니다. `nvidia-smi`에 나오는 `CUDA Version`은 현재 드라이버와 호환되는 최신 버전의 CUDA 정보입니다. CUDA는 `nvcc --version`으로 확인하셔야합니다.    CUDA를 설치했는데 nvcc --version을 해도 명령어가 동작을 안해요! 설치를 잘못하셨다는 의미입니다. 혹시나 다음과 같은 작업을 잊으신건 아닐까요?</description>
     </item>
     
     <item>
@@ -158,7 +158,7 @@ Computer Vision 개론 강의
       
       <guid>https://v-ais.github.io/2.Study/common/tips/ubuntu_tips/</guid>
       <description>우분투 사용과 관련된 팁!
-간단 명령어 #  adduser [user name] usermod -a -G [group name] [user name] -a : user를 group의 사용자로 추가 -G : user의 secondary group으로 추가 chmod -R xxx [directory or file name] -R : 하위 폴더, 파일까지 모드 변경 xxx : 0~7 값으로 모드 변경 chown -R [user name] [directory or file name] chgrp -R [group name] [directory or file name] du -h - Disk usage - 사용자 레벨의 프로그램으로 meta data 같은 것들을 반영시키지 못함.</description>
+간단 명령어 #  # 유저 추가 adduser [user name] # 그룹에 유저 추가 usermod -a -G [group name] [user name] -a : user를 group의 사용자로 추가 -G : user의 secondary group으로 추가 # 디렉토리 or 파일 권한 변경 chmod -R xxx [directory or file name] -R : 하위 폴더, 파일까지 모드 변경 xxx : 0~7 값으로 모드 변경 # 디렉토리 or 파일 소유자 변경 chown -R [user name] [directory or file name] # 디렉토리 or 파일 그룹 소유자 변경 chgrp -R [group name] [directory or file name] # 디렉토리 및 파일의 디스크 사용량을 확인 (Disk Usage) du -h - 사용자 레벨의 프로그램으로 meta data 같은 것들을 반영시키지 못함.</description>
     </item>
     
     <item>
